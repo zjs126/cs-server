@@ -1,0 +1,79 @@
+10:20:40.013 [080-exec-7] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+10:20:40.020 [080-exec-7] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+10:20:40.022 [080-exec-7] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+10:20:40.078 [080-exec-7] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+10:20:40.672 [080-exec-7] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+10:20:40.720 [080-exec-7] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+10:20:40.863 [080-exec-7] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+10:20:40.947 [080-exec-7] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1475724361
+10:20:40.953 [080-exec-7] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+10:20:42.732 [080-exec-7] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+10:20:43.576 [080-exec-7] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+10:20:43.725 [080-exec-7] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 119h31m30s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+10:20:43.725 [080-exec-7] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 119h31m30s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+10:20:43.729 [080-exec-7] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:20:43.729 [080-exec-7] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:20:58.173 [080-exec-8] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💔 💿 U  got 1462 0 <- 0 in , last fetched 116h5m20s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+10:20:58.173 [080-exec-8] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💔 💿 U  got 1462 0 <- 0 in , last fetched 116h5m20s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+10:22:13.914 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/5 | StaticPulsarContext
+10:22:13.922 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000003
+10:22:13.923 [l-worker-1] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000002
+10:22:13.923 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000005
+10:22:13.923 [l-worker-1] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+10:22:13.923 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000004
+10:28:42.681 [080-exec-1] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+10:28:42.682 [080-exec-1] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+10:28:42.683 [080-exec-1] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+10:28:42.711 [080-exec-1] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+10:28:43.064 [080-exec-1] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+10:28:43.106 [080-exec-1] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+10:28:43.180 [080-exec-1] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+10:28:43.221 [080-exec-1] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @990477053
+10:28:43.224 [080-exec-1] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+10:28:44.592 [080-exec-1] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+10:28:45.205 [080-exec-1] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+10:28:45.322 [080-exec-1] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 116h13m7s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+10:28:45.322 [080-exec-1] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 116h13m7s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+10:28:45.324 [080-exec-1] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:28:45.324 [080-exec-1] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:29:16.972 [080-exec-5] INFO  a.p.p.c.component.LoadComponent.Task -   8. 💔 💿 U  got 1462 0 <- 0 in , last fetched 119h40m4s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+10:29:16.972 [080-exec-5] INFO  a.p.p.c.component.LoadComponent.Task -   8. 💔 💿 U  got 1462 0 <- 0 in , last fetched 119h40m4s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+10:51:19.382 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/4 | StaticPulsarContext
+10:51:19.382 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000003
+10:51:19.382 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000004
+10:51:19.382 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+10:51:19.382 [l-worker-1] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000002
+16:33:49.869 [080-exec-3] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+16:33:49.870 [080-exec-3] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+16:33:49.871 [080-exec-3] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+16:33:49.901 [080-exec-3] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+16:33:50.280 [080-exec-3] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+16:33:50.305 [080-exec-3] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+16:33:50.427 [080-exec-3] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+16:33:50.468 [080-exec-3] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @991816893
+16:33:50.473 [080-exec-3] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+16:33:51.709 [080-exec-3] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+16:33:52.300 [080-exec-3] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+16:33:52.406 [080-exec-3] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 125h44m39s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:33:52.406 [080-exec-3] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 125h44m39s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:33:52.407 [080-exec-3] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+16:33:52.407 [080-exec-3] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+16:35:42.863 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+16:35:42.864 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+16:35:42.866 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+16:35:42.931 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+16:35:43.583 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+16:35:43.666 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+16:35:43.780 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+16:35:43.849 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1059041593
+16:35:43.855 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+16:35:45.512 [main] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+16:35:46.135 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+16:35:46.307 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 125h46m33s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:35:46.307 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 125h46m33s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:35:46.307 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+16:35:46.307 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+16:35:46.685 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+16:35:46.688 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+16:51:26.542 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+16:51:26.546 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001

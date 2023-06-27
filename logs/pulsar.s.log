@@ -1,0 +1,182 @@
+21:16:14.246 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:16:14.253 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:16:14.255 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:16:14.321 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:16:14.989 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:16:15.055 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:16:15.212 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:16:15.289 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1523416348
+21:16:15.298 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:16:15.926 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:16:15.929 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+21:17:02.018 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:17:02.020 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:17:02.022 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:17:02.129 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:17:03.252 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:17:03.360 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:17:03.568 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:17:03.665 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1523416348
+21:17:03.676 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:17:04.609 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:17:04.611 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+21:17:15.214 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:17:15.257 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:17:15.296 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:17:15.511 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:17:21.156 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:17:21.361 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:17:22.279 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:17:22.675 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1478396265
+21:17:22.715 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:17:52.694 [Thread-3] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:17:52.697 [Thread-3] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+21:18:10.899 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:18:10.927 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:18:10.955 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:18:11.109 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:18:15.853 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:18:16.044 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:18:17.032 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:18:17.419 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @926017718
+21:18:17.457 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:18:33.816 [Thread-3] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:22:24.581 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:22:24.583 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:22:24.584 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:22:24.617 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:22:25.110 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:22:25.149 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:22:25.257 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:22:25.313 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1453962850
+21:22:25.320 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:22:26.763 [main] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:22:27.026 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:22:27.326 [oroutine#1] INFO  a.p.p.c.f.p.PrivacyContextIdGeneratorFactory - Using id generator f.p.SequentialPrivacyContextIdGenerator
+21:22:27.355 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1z3AdU4
+21:22:27.355 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1z3AdU4
+21:22:28.085 [oroutine#1] INFO  a.p.pulsar.common.ProcessLauncher - Launching process:
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --headless --disable-gpu --hide-scrollbars --remote-debugging-port=0 --no-default-browser-check --no-first-run --no-startup-window --mute-audio --disable-background-networking --disable-background-timer-throttling --disable-client-side-phishing-detection --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-translate --disable-blink-features=AutomationControlled --metrics-recording-only --safebrowsing-disable-auto-update --no-sandbox --ignore-certificate-errors --remote-allow-origins=* --window-size=1920,1080 --pageLoadStrategy=none --throwExceptionOnScriptError=true --user-data-dir=C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\context\cx.1z3AdU4\pulsar_chrome
+21:22:38.334 [oroutine#2] WARN  a.p.p.p.b.e.i.BrowserEmulatorImplBase - java.nio.file.FileSystemException: C:\Users\ASUS\AppData\Local\Temp\ln\bb9a648deed3cdcbb2ac3c68d6930c84.htm: 客户端没有所需的特权。
+21:22:38.408 [2-thread-1] INFO  a.p.p.p.b.d.WebDriverPoolManager - Maintaining service is started
+21:22:38.562 [main] INFO  a.p.p.c.component.LoadComponent.Task -   2. 💯 ⚡ U for N got 200 185.24 KiB [💿231.67 KiB] in 9.173s, fc:1 | 1/218/99/259/2789 | 1z3AdU4 | file://C:\Users\ASUS\AppData\Local\Temp\ln\bb9a648deed3cdcbb2ac3c68d6930c84.htm | https://www.luogu.com.cn/problem/list?page=1 -refresh
+21:22:38.562 [main] INFO  a.p.p.c.component.LoadComponent.Task -   2. 💯 ⚡ U for N got 200 185.24 KiB [💿231.67 KiB] in 9.173s, fc:1 | 1/218/99/259/2789 | 1z3AdU4 | file://C:\Users\ASUS\AppData\Local\Temp\ln\bb9a648deed3cdcbb2ac3c68d6930c84.htm | https://www.luogu.com.cn/problem/list?page=1 -refresh
+21:22:38.565 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:22:38.565 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:22:38.775 [routine#49] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #2tzY8n5
+21:22:38.775 [routine#49] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #2tzY8n5
+21:22:48.172 [routine#50] WARN  a.p.p.p.b.e.i.BrowserEmulatorImplBase - java.nio.file.FileSystemException: C:\Users\ASUS\AppData\Local\Temp\ln\b651408cc785eb2fe8271125f3839f73.htm: 客户端没有所需的特权。
+21:22:48.225 [main] INFO  a.p.p.c.component.LoadComponent.Task -   5. 💯 🔃 U for RR got 200 187.63 KiB <- 180.15 KiB [💿234.73 KiB] in 9.297s, last fetched 1607h36m57s ago, fc:2 | 1/225/103/264/2813 | 1z3AdU4 | file://C:\Users\ASUS\AppData\Local\Temp\ln\b651408cc785eb2fe8271125f3839f73.htm | https://www.luogu.com.cn/problem/list?page=2 -refresh
+21:22:48.225 [main] INFO  a.p.p.c.component.LoadComponent.Task -   5. 💯 🔃 U for RR got 200 187.63 KiB <- 180.15 KiB [💿234.73 KiB] in 9.297s, last fetched 1607h36m57s ago, fc:2 | 1/225/103/264/2813 | 1z3AdU4 | file://C:\Users\ASUS\AppData\Local\Temp\ln\b651408cc785eb2fe8271125f3839f73.htm | https://www.luogu.com.cn/problem/list?page=2 -refresh
+21:22:48.274 [routine#93] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 991.13 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+21:22:59.147 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:22:59.149 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+21:24:25.632 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:24:25.633 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:24:25.634 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:24:25.679 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:24:26.317 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:24:26.370 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:24:26.482 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:24:26.553 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1738792326
+21:24:26.561 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:24:27.945 [main] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:24:28.232 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:24:28.582 [oroutine#1] INFO  a.p.p.c.f.p.PrivacyContextIdGeneratorFactory - Using id generator f.p.SequentialPrivacyContextIdGenerator
+21:24:28.608 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1QEJCk5
+21:24:28.608 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1QEJCk5
+21:24:28.805 [oroutine#1] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 944.60 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+21:25:27.071 [Thread-3] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:25:44.909 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:25:44.942 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:25:44.973 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:25:45.138 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:25:49.595 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:25:49.771 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:25:50.584 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:25:50.933 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @2091029265
+21:25:50.965 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:26:01.221 [main] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:26:04.231 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:26:06.426 [oroutine#1] INFO  a.p.p.c.f.p.PrivacyContextIdGeneratorFactory - Using id generator f.p.SequentialPrivacyContextIdGenerator
+21:26:06.568 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1Vb6J75
+21:26:06.568 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1Vb6J75
+21:26:08.407 [oroutine#1] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 994.82 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+21:26:08.529 [oroutine#1] INFO  a.p.pulsar.common.ProcessLauncher - Launching process:
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --headless --disable-gpu --hide-scrollbars --remote-debugging-port=0 --no-default-browser-check --no-first-run --no-startup-window --mute-audio --disable-background-networking --disable-background-timer-throttling --disable-client-side-phishing-detection --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-translate --disable-blink-features=AutomationControlled --metrics-recording-only --safebrowsing-disable-auto-update --no-sandbox --ignore-certificate-errors --remote-allow-origins=* --window-size=1920,1080 --pageLoadStrategy=none --throwExceptionOnScriptError=true --user-data-dir=C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\context\cx.1Vb6J75\pulsar_chrome
+21:26:46.195 [oroutine#2] WARN  a.p.p.p.b.e.i.BrowserEmulatorImplBase - java.nio.file.FileSystemException: C:\Users\ASUS\AppData\Local\Temp\ln\bb9a648deed3cdcbb2ac3c68d6930c84.htm: 客户端没有所需的特权。
+21:26:46.376 [2-thread-1] INFO  a.p.p.p.b.d.WebDriverPoolManager - Maintaining service is started
+21:26:48.171 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💯 🔃 U for RR got 200 185.24 KiB [💿231.67 KiB] in 28.839s, last fetched 4m9s ago, fc:2 | 1/218/99/259/2789 | 1Vb6J75 | file://C:\Users\ASUS\AppData\Local\Temp\ln\bb9a648deed3cdcbb2ac3c68d6930c84.htm | https://www.luogu.com.cn/problem/list?page=1 -refresh
+21:26:48.171 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💯 🔃 U for RR got 200 185.24 KiB [💿231.67 KiB] in 28.839s, last fetched 4m9s ago, fc:2 | 1/218/99/259/2789 | 1Vb6J75 | file://C:\Users\ASUS\AppData\Local\Temp\ln\bb9a648deed3cdcbb2ac3c68d6930c84.htm | https://www.luogu.com.cn/problem/list?page=1 -refresh
+21:26:48.174 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:26:48.174 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:28:26.457 [Thread-3] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:28:26.463 [Thread-3] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+21:46:03.743 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:46:03.745 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:46:03.746 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:46:03.796 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:46:04.473 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:46:04.536 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:46:04.667 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:46:04.726 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1784425773
+21:46:04.762 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:46:05.995 [main] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:46:06.252 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:46:06.569 [oroutine#1] INFO  a.p.p.c.f.p.PrivacyContextIdGeneratorFactory - Using id generator f.p.SequentialPrivacyContextIdGenerator
+21:46:06.595 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1DUPkC6
+21:46:06.595 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1DUPkC6
+21:46:06.778 [oroutine#1] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 1,018.25 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+21:47:07.382 [oroutine#1] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+21:47:07.385 [oroutine#1] WARN  a.p.p.p.b.e.context.WebDriverContext - 3. Retry task 1 in crawl scope | cause by: Driver pool is exhausted (0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+21:47:07.385 [oroutine#1] WARN  a.p.p.p.b.e.context.WebDriverContext - 3. Retry task 1 in crawl scope | cause by: Driver pool is exhausted (0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+21:47:07.469 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 🔃 U for RR got 1601 185.24 KiB [💿231.67 KiB] in 0s, last fetched 20m19s ago, fc:1/3 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 1/218/99/259/2789 | 1DUPkC6 | file://C:\Users\ASUS\AppData\Local\Temp\ln\bb9a648deed3cdcbb2ac3c68d6930c84.htm | https://www.luogu.com.cn/problem/list?page=1 -refresh
+21:47:07.469 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 🔃 U for RR got 1601 185.24 KiB [💿231.67 KiB] in 0s, last fetched 20m19s ago, fc:1/3 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 1/218/99/259/2789 | 1DUPkC6 | file://C:\Users\ASUS\AppData\Local\Temp\ln\bb9a648deed3cdcbb2ac3c68d6930c84.htm | https://www.luogu.com.cn/problem/list?page=1 -refresh
+21:47:07.469 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:47:07.469 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:47:07.824 [oroutine#2] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #2bFA0y6
+21:47:07.824 [oroutine#2] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #2bFA0y6
+21:47:07.829 [oroutine#2] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 989.57 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+21:48:07.847 [oroutine#2] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+21:48:07.847 [oroutine#2] WARN  a.p.p.p.b.e.context.WebDriverContext - 6. Retry task 2 in crawl scope | cause by: Driver pool is exhausted (0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+21:48:07.847 [oroutine#2] WARN  a.p.p.p.b.e.context.WebDriverContext - 6. Retry task 2 in crawl scope | cause by: Driver pool is exhausted (0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+21:48:07.848 [main] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💔 🔃 U for RR got 1601 75.29 KiB [💿86.78 KiB] in 0s, last fetched 1608h23m18s ago, fc:1/2 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 4/35/6/76/2229 | 2bFA0y6 | file://C:\Users\ASUS\AppData\Local\Temp\ln\e915ea60ccc0fbb5630461d6ed5295fb.htm | https://www.luogu.com.cn/problem/P1000 -refresh
+21:48:07.848 [main] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💔 🔃 U for RR got 1601 75.29 KiB [💿86.78 KiB] in 0s, last fetched 1608h23m18s ago, fc:1/2 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 4/35/6/76/2229 | 2bFA0y6 | file://C:\Users\ASUS\AppData\Local\Temp\ln\e915ea60ccc0fbb5630461d6ed5295fb.htm | https://www.luogu.com.cn/problem/P1000 -refresh
+21:48:07.900 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:48:07.902 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+21:48:07.907 [Thread-2] INFO  a.p.p.p.b.d.WebDriverPoolManager - Web driver pool manager is closed
+21:48:07.908 [Thread-2] INFO  a.p.p.c.fetch.privacy.PrivacyManager - Closing privacy contexts ...
+21:49:27.815 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:49:27.817 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:49:27.818 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:49:27.858 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:49:28.399 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:49:28.445 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:49:28.544 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:49:28.595 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1589635066
+21:49:28.602 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:49:29.801 [main] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:49:30.053 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:49:30.343 [oroutine#1] INFO  a.p.p.c.f.p.PrivacyContextIdGeneratorFactory - Using id generator f.p.SequentialPrivacyContextIdGenerator
+21:49:30.377 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #17b7RE6
+21:49:30.377 [oroutine#1] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #17b7RE6
+21:49:31.021 [oroutine#1] INFO  a.p.pulsar.common.ProcessLauncher - Launching process:
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --headless --disable-gpu --hide-scrollbars --remote-debugging-port=0 --no-default-browser-check --no-first-run --no-startup-window --mute-audio --disable-background-networking --disable-background-timer-throttling --disable-client-side-phishing-detection --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-translate --disable-blink-features=AutomationControlled --metrics-recording-only --safebrowsing-disable-auto-update --no-sandbox --ignore-certificate-errors --remote-allow-origins=* --window-size=1920,1080 --pageLoadStrategy=none --throwExceptionOnScriptError=true --user-data-dir=C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\context\cx.17b7RE6\pulsar_chrome
+21:49:45.797 [oroutine#2] WARN  a.p.p.p.b.e.i.BrowserEmulatorImplBase - java.nio.file.FileSystemException: C:\Users\ASUS\AppData\Local\Temp\ln\b651408cc785eb2fe8271125f3839f73.htm: 客户端没有所需的特权。
+21:49:45.878 [2-thread-1] INFO  a.p.p.p.b.d.WebDriverPoolManager - Maintaining service is started
+21:49:46.021 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💯 🔃 U for RR got 200 187.64 KiB <- 187.63 KiB [💿234.31 KiB] in 13.964s, last fetched 26m57s ago, fc:3 | 1/225/103/264/2813 | 17b7RE6 | file://C:\Users\ASUS\AppData\Local\Temp\ln\b651408cc785eb2fe8271125f3839f73.htm | https://www.luogu.com.cn/problem/list?page=2 -refresh
+21:49:46.021 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💯 🔃 U for RR got 200 187.64 KiB <- 187.63 KiB [💿234.31 KiB] in 13.964s, last fetched 26m57s ago, fc:3 | 1/225/103/264/2813 | 17b7RE6 | file://C:\Users\ASUS\AppData\Local\Temp\ln\b651408cc785eb2fe8271125f3839f73.htm | https://www.luogu.com.cn/problem/list?page=2 -refresh
+21:49:46.022 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:49:46.022 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:49:46.182 [routine#49] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #2icxGg7
+21:49:46.182 [routine#49] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #2icxGg7
+21:49:46.186 [routine#49] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 999.01 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+21:50:46.217 [routine#49] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+21:50:46.218 [routine#49] WARN  a.p.p.p.b.e.context.WebDriverContext - 6. Retry task 2 in crawl scope | cause by: Driver pool is exhausted (0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+21:50:46.218 [routine#49] WARN  a.p.p.p.b.e.context.WebDriverContext - 6. Retry task 2 in crawl scope | cause by: Driver pool is exhausted (0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+21:50:46.221 [main] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💔 🔃 U for RR got 1601 107.77 KiB [💿132.90 KiB] in 0s, last fetched 1608h3m41s ago, fc:1/2 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 3/31/11/341/1764 | 2icxGg7 | file://C:\Users\ASUS\AppData\Local\Temp\ln\9733267c72260ccdb9047dd7427a914b.htm | https://www.luogu.com.cn/problem/P1050 -refresh
+21:50:46.221 [main] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💔 🔃 U for RR got 1601 107.77 KiB [💿132.90 KiB] in 0s, last fetched 1608h3m41s ago, fc:1/2 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 3/31/11/341/1764 | 2icxGg7 | file://C:\Users\ASUS\AppData\Local\Temp\ln\9733267c72260ccdb9047dd7427a914b.htm | https://www.luogu.com.cn/problem/P1050 -refresh
+21:50:46.277 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:50:46.278 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001
+21:50:46.280 [Thread-2] INFO  a.p.p.p.b.d.WebDriverPoolManager - Web driver pool manager is closed
+21:50:46.280 [Thread-2] INFO  a.p.p.c.fetch.privacy.PrivacyManager - Closing privacy contexts ...

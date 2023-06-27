@@ -1,0 +1,10 @@
+10:20:43.725 [080-exec-7] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 119h31m30s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+10:20:43.729 [080-exec-7] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:20:58.173 [080-exec-8] INFO  a.p.p.c.c.L.Task -   6. 💔 💿 U  got 1462 0 <- 0 in , last fetched 116h5m20s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+10:28:45.322 [080-exec-1] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 116h13m7s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+10:28:45.324 [080-exec-1] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:29:16.972 [080-exec-5] INFO  a.p.p.c.c.L.Task -   8. 💔 💿 U  got 1462 0 <- 0 in , last fetched 119h40m4s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:33:52.406 [080-exec-3] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 125h44m39s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:33:52.407 [080-exec-3] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+16:35:46.307 [main] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 125h46m33s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:35:46.307 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc

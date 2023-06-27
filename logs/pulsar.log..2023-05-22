@@ -1,0 +1,257 @@
+00:42:30.484 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+00:42:30.496 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:28:55.210 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 16088 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+09:28:55.212 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+09:28:56.560 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+09:28:56.561 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+09:28:56.561 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+09:28:56.743 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+09:28:57.141 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+09:28:57.141 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+09:28:57.705 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+09:28:57.739 [main] INFO  com.spring.Application - Started Application in 2.957 seconds (JVM running for 4.147)
+09:29:08.186 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:29:08.235 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+09:29:08.235 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+09:29:08.297 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+09:29:08.297 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+09:29:08.563 [080-exec-2] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+09:29:08.674 [080-exec-2] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+09:29:09.555 [080-exec-2] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+09:29:09.586 [080-exec-2] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：1009ms
+09:30:39.923 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+09:30:39.923 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+09:30:39.923 [080-exec-4] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+09:30:39.939 [080-exec-4] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：16ms
+09:33:30.625 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+09:33:30.625 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - null
+09:33:30.625 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+09:33:34.385 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+09:33:34.385 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - null
+09:33:34.385 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+09:34:27.075 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+09:34:27.075 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+09:34:27.076 [080-exec-9] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+09:34:27.079 [080-exec-9] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：3ms
+09:34:54.389 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+09:34:54.389 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - eyJhbGciOiJIUzI1NiJ9.eyJpZCI6MSwidXNlcm5hbWUiOiJseHkiLCJleHAiOjE2ODQ3NjI0Njd9.yzDhHnK5_2s7voMd9m01ks3ALaAT84-LUDvWU3u2Myk
+09:34:54.400 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+09:34:54.400 [080-exec-1] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+09:34:54.444 [080-exec-1] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+09:34:54.447 [080-exec-1] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+09:34:54.448 [080-exec-1] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+09:34:54.481 [080-exec-1] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+09:34:54.824 [080-exec-1] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+09:34:54.859 [080-exec-1] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+09:34:54.957 [080-exec-1] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+09:34:55.018 [080-exec-1] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @345088777
+09:34:55.021 [080-exec-1] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+09:34:55.984 [080-exec-1] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+09:34:56.428 [080-exec-1] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+09:34:56.523 [080-exec-1] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 382h45m43s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+09:34:56.526 [080-exec-1] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+09:34:56.670 [080-exec-1] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：2270ms
+09:43:54.366 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+09:43:54.366 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - null
+09:43:54.366 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+09:43:56.638 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+09:43:56.638 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - null
+09:43:56.638 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+09:44:39.765 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+09:44:39.765 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - null
+09:44:39.765 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+09:44:44.731 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+09:44:44.731 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - null
+09:44:44.731 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+09:45:16.433 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+09:45:16.448 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000001
+09:45:16.464 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:45:16.464 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+15:33:08.510 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 21900 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+15:33:08.512 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+15:33:09.912 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:33:09.913 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+15:33:09.913 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+15:33:10.106 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15:33:10.517 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+15:33:10.517 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+15:33:11.099 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:33:11.128 [main] INFO  com.spring.Application - Started Application in 3.057 seconds (JVM running for 4.266)
+15:33:13.875 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:33:13.889 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:33:13.890 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - null
+15:33:13.891 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:33:44.436 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:33:44.436 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:33:44.453 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:33:44.453 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:33:44.555 [080-exec-4] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+15:33:44.596 [080-exec-4] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+15:33:45.123 [080-exec-4] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+15:33:45.151 [080-exec-4] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：590ms
+15:33:45.923 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:33:45.923 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:33:45.923 [080-exec-3] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+15:33:45.937 [080-exec-3] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：14ms
+15:34:00.392 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:34:00.392 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - null
+15:34:00.392 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:34:43.460 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:34:43.460 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - null
+15:34:43.460 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:37:32.657 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:37:32.658 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - null
+15:37:32.658 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:37:41.445 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:37:41.446 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - null
+15:37:41.446 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:37:43.903 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:37:43.903 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - null
+15:37:43.904 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:37:45.161 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:37:45.162 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - null
+15:37:45.162 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:37:45.541 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:37:45.542 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - null
+15:37:45.542 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:37:45.889 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:37:45.889 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - null
+15:37:45.889 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:37:46.101 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:37:46.102 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - null
+15:37:46.102 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:38:14.309 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:38:14.310 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - null
+15:38:14.310 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:38:18.985 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:38:18.985 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - null
+15:38:18.985 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:38:46.784 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:38:46.784 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - null
+15:38:46.784 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:38:50.024 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:38:50.025 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - null
+15:38:50.025 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:39:58.987 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:39:58.988 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - null
+15:39:58.988 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:40:01.449 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:40:01.449 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - null
+15:40:01.449 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:41:25.958 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:41:25.958 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - null
+15:41:25.959 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:41:39.726 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:41:39.727 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - null
+15:41:39.728 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:41:44.588 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:41:44.588 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - null
+15:41:44.588 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:41:47.422 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:41:47.422 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - null
+15:41:47.422 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:41:58.696 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:41:58.696 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:41:58.699 [080-exec-7] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+15:41:58.711 [080-exec-7] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：11ms
+15:42:03.926 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:42:03.926 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - null
+15:42:03.926 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:42:06.223 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:42:06.224 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - null
+15:42:06.224 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:42:47.209 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/error
+15:42:47.210 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - null
+15:42:47.210 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:42:51.193 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:42:51.194 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:42:54.145 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:42:54.145 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:43:00.098 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:43:00.098 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:43:12.383 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:43:12.384 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - null
+15:43:12.384 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:43:16.930 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:43:16.930 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - null
+15:43:16.930 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:43:41.196 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:43:41.196 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - null
+15:43:41.196 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:43:45.184 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:43:45.184 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - null
+15:43:45.184 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:43:48.199 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:43:48.201 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - null
+15:43:48.201 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:44:02.205 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:44:02.206 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:44:05.478 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:44:05.478 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:44:20.201 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+15:44:20.202 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+15:44:32.074 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:44:32.074 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - null
+15:44:32.074 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:44:35.346 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:44:35.346 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - null
+15:44:35.346 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:48:46.208 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/
+15:48:46.209 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - null
+15:48:46.209 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:48:50.198 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/craw
+15:48:50.199 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - null
+15:48:50.199 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:48:52.187 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl
+15:48:52.187 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - null
+15:48:52.187 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:48:54.197 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:48:54.198 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - null
+15:48:54.198 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:48:59.192 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:48:59.192 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - null
+15:48:59.192 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:49:02.203 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:49:02.203 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - null
+15:49:02.203 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:49:10.189 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:49:10.190 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - null
+15:49:10.190 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:49:25.187 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:49:25.187 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - null
+15:49:25.187 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:49:30.552 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:49:30.552 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - null
+15:49:30.552 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:51:11.200 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+15:51:11.201 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - null
+15:51:11.201 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:51:15.730 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+15:51:15.738 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:23:09.739 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 20688 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+20:23:09.741 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+20:23:11.122 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+20:23:11.122 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+20:23:11.122 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+20:23:11.311 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+20:23:11.693 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+20:23:11.693 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+20:23:12.256 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+20:23:12.287 [main] INFO  com.spring.Application - Started Application in 2.964 seconds (JVM running for 4.303)
+20:23:51.629 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20:23:51.643 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+20:23:51.643 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+20:23:51.664 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+20:23:51.664 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+20:23:51.739 [080-exec-2] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+20:23:51.768 [080-exec-2] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+20:23:52.150 [080-exec-2] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+20:23:52.185 [080-exec-2] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：445ms
+20:25:26.349 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+20:25:26.351 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - null
+20:25:26.351 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+20:26:15.211 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+20:26:15.211 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - null
+20:26:15.211 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+20:34:48.585 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:34:48.593 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

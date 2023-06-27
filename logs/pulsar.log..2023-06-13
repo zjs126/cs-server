@@ -1,0 +1,30 @@
+23:01:13.970 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 6704 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+23:01:13.977 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+23:01:16.448 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+23:01:16.448 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23:01:16.448 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:01:16.486 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+23:01:16.504 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:01:16.505 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+23:01:16.506 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+23:01:16.851 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:01:18.795 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:01:18.838 [main] INFO  com.spring.Application - Started Application in 5.567 seconds (JVM running for 8.304)
+23:01:22.270 [080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:01:22.286 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+23:01:22.288 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+23:01:22.397 [080-exec-2] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=zjs, password=123456, gender=null, email=null, phone=null, tag=null, postnumbers=0)
+23:01:22.440 [080-exec-2] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:01:22.905 [080-exec-2] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:01:23.003 [080-exec-2] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：596ms
+23:02:16.498 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/competition/GetCCCC
+23:02:16.509 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+23:02:16.517 [080-exec-3] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.CompetitionServicelmpl.searchCCCCCompetition()方法执行耗时：7ms
+23:02:36.588 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/competition/GetCPP
+23:02:36.589 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+23:02:36.613 [080-exec-4] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.CompetitionServicelmpl.searchCPPCompetition()方法执行耗时：23ms
+23:02:45.872 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/competition/GetCCF
+23:02:45.874 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+23:02:45.879 [080-exec-5] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.CompetitionServicelmpl.searchCCFCompetition()方法执行耗时：5ms
+23:02:55.222 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:02:55.228 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

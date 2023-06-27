@@ -1,0 +1,178 @@
+21:08:54.880 [main] INFO  c.spring.ApplicationTests - Starting ApplicationTests using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 20372 (started by 86191 in C:\Users\86191\Desktop\Spring)
+21:08:54.887 [main] INFO  c.spring.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+21:08:57.272 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+21:08:57.272 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+21:08:59.266 [main] INFO  c.spring.ApplicationTests - Started ApplicationTests in 4.851 seconds (JVM running for 6.961)
+21:09:00.043 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:09:00.048 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:09:00.049 [main] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:09:00.100 [main] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:09:00.788 [main] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+21:09:00.847 [main] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:09:01.093 [main] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:09:01.166 [main] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @1209773631
+21:09:01.172 [main] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:09:02.920 [main] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:09:03.506 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:09:03.655 [main] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 270h53m26s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+21:09:03.658 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:09:04.018 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:09:04.025 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000001
+21:09:36.539 [main] INFO  c.spring.ApplicationTests - Starting ApplicationTests using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 5384 (started by 86191 in C:\Users\86191\Desktop\Spring)
+21:09:36.552 [main] INFO  c.spring.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+21:09:38.763 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+21:09:38.764 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+21:09:40.517 [main] INFO  c.spring.ApplicationTests - Started ApplicationTests in 4.419 seconds (JVM running for 6.289)
+21:09:41.182 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:09:41.183 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:09:41.184 [main] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:09:41.218 [main] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:09:41.783 [main] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+21:09:41.839 [main] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:09:41.934 [main] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:09:41.981 [main] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @1525595340
+21:09:41.985 [main] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:09:43.295 [main] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:09:43.789 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:09:43.908 [main] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 270h54m6s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+21:09:43.909 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:09:44.174 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:10:13.958 [main] INFO  c.spring.ApplicationTests - Starting ApplicationTests using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 23312 (started by 86191 in C:\Users\86191\Desktop\Spring)
+21:10:13.962 [main] INFO  c.spring.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+21:10:15.690 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+21:10:15.690 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+21:10:17.096 [main] INFO  c.spring.ApplicationTests - Started ApplicationTests in 3.46 seconds (JVM running for 4.939)
+21:10:17.637 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:10:17.638 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:10:17.639 [main] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:10:17.661 [main] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:10:18.158 [main] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+21:10:18.198 [main] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:10:18.268 [main] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:10:18.297 [main] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @1276200583
+21:10:18.301 [main] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:10:19.455 [main] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:10:19.870 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:10:19.978 [main] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 270h54m42s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+21:10:19.978 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:10:20.192 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+21:10:20.194 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000001
+21:11:50.506 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 23684 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+21:11:50.509 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+21:11:51.700 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:11:51.700 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+21:11:51.700 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+21:11:51.880 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+21:11:52.213 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+21:11:52.213 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+21:11:52.789 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:11:52.823 [main] INFO  com.spring.Application - Started Application in 2.672 seconds (JVM running for 3.79)
+21:12:07.543 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:12:07.562 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:12:07.564 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:12:07.659 [080-exec-1] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+21:12:07.691 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+21:12:08.073 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+21:12:08.113 [080-exec-1] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：449ms
+21:16:04.823 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:16:04.824 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:16:29.725 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:16:29.725 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:16:47.572 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:16:47.573 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:18:10.068 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:18:10.068 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:32:48.899 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:32:48.913 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:32:54.403 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 11708 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+21:32:54.406 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+21:32:55.578 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:32:55.579 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+21:32:55.579 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+21:32:55.756 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+21:32:56.108 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+21:32:56.108 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+21:32:56.611 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:32:56.642 [main] INFO  com.spring.Application - Started Application in 2.576 seconds (JVM running for 3.527)
+21:33:14.577 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:33:14.605 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:33:14.611 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:33:22.896 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:33:22.897 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:38:14.204 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:38:14.205 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:38:25.609 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:38:25.610 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:39:13.158 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:39:13.159 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:39:19.731 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:39:19.732 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:42:07.695 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:42:07.696 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:42:44.344 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:42:44.345 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:43:05.935 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:43:05.936 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:43:15.309 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:43:15.310 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:46:33.764 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:46:33.764 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:46:33.772 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:46:33.772 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:46:33.825 [080-exec-5] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+21:46:33.857 [080-exec-5] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+21:46:34.239 [080-exec-5] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+21:46:34.272 [080-exec-5] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：442ms
+21:47:43.920 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:47:43.920 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:47:43.921 [080-exec-7] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=null, password=null, gender=null, email=null, phone=null, tag=null)
+21:47:43.925 [080-exec-7] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：2ms
+21:49:11.662 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:49:11.663 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:49:11.666 [080-exec-4] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+21:49:11.673 [080-exec-4] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：7ms
+21:50:13.612 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:50:13.613 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:50:13.614 [080-exec-1] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+21:50:13.618 [080-exec-1] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：4ms
+21:52:13.501 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+21:52:13.502 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+21:52:13.504 [080-exec-2] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+21:52:13.514 [080-exec-2] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：9ms
+22:05:52.074 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:05:52.081 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+22:30:56.088 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 22880 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+22:30:56.090 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+22:30:57.252 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:30:57.252 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+22:30:57.252 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+22:30:57.432 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+22:30:57.766 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+22:30:57.766 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+22:30:58.308 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:30:58.334 [main] INFO  com.spring.Application - Started Application in 2.797 seconds (JVM running for 4.351)
+22:31:50.239 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:31:50.291 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:31:50.296 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:31:54.187 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:31:54.188 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:32:05.340 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:32:05.341 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:32:09.980 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/error
+22:32:09.981 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+22:32:21.846 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:32:21.848 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:32:56.120 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:32:56.120 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:33:27.635 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:33:27.636 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:33:27.654 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:33:27.655 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:33:27.956 [080-exec-9] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+22:33:28.042 [080-exec-9] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+22:33:28.612 [080-exec-9] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+22:33:28.647 [080-exec-9] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：674ms
+22:33:33.635 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:33:33.635 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:33:33.636 [80-exec-10] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+22:33:33.639 [80-exec-10] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：2ms

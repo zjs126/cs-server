@@ -1,0 +1,102 @@
+10:51:58.999 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 1600 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+10:51:59.004 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+10:52:00.752 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+10:52:00.752 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+10:52:00.752 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10:52:00.761 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+10:52:00.774 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:52:00.775 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+10:52:00.775 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+10:52:01.042 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10:52:02.783 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:52:02.813 [main] INFO  com.spring.Application - Started Application in 4.537 seconds (JVM running for 6.848)
+10:52:23.912 [080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:52:23.926 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+10:52:23.927 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+10:52:24.007 [080-exec-2] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=zjs, password=123456, gender=null, email=null, phone=null, tag=null, postnumbers=0)
+10:52:24.042 [080-exec-2] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10:52:24.472 [080-exec-2] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10:52:24.575 [080-exec-2] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：559ms
+10:53:11.768 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+10:53:11.780 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:53:11.781 [080-exec-3] INFO  c.s.c.CrawlController - 计算机大赛内容
+10:53:11.817 [080-exec-3] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+10:53:11.819 [080-exec-3] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+10:53:11.820 [080-exec-3] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+10:53:11.851 [080-exec-3] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+10:53:12.182 [080-exec-3] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+10:53:12.237 [080-exec-3] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+10:53:12.322 [080-exec-3] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+10:53:12.382 [080-exec-3] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @1445313793
+10:53:12.385 [080-exec-3] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+10:53:13.350 [080-exec-3] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+10:53:13.640 [080-exec-3] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+10:53:13.892 [080-exec-3] INFO  a.p.p.c.f.p.PrivacyContextIdGeneratorFactory - Using id generator f.p.SequentialPrivacyContextIdGenerator
+10:53:13.919 [080-exec-3] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #1ZAp2J2
+10:53:14.089 [080-exec-3] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 829.24 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+10:54:14.098 [080-exec-3] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | [Lack of resource] | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+10:54:14.100 [080-exec-3] WARN  a.p.p.p.b.e.c.WebDriverContext - 3. Retry task 1 in crawl scope | cause by: Driver pool is exhausted ([Lack of resource] | 0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+10:54:14.198 [080-exec-3] INFO  a.p.p.c.c.L.Task -   3. 💔 🔃 U for RR got 1601 15.78 KiB [💿29.00 KiB] in 0s, last fetched 155h55m51s ago, fc:1/32 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 3/48/18/57/449 | 1ZAp2J2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\d4ec238841810e993ccfb4251af9ad48.htm | http://jsjds.blcu.edu.cn/index.htm -refresh
+10:54:14.202 [080-exec-3] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:54:14.471 [080-exec-3] INFO  a.p.p.p.b.e.c.BasicPrivacyContextManager - Privacy context is created #2ZCACq2
+10:54:14.474 [080-exec-3] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 931.06 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+10:55:14.483 [080-exec-3] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | [Lack of resource] | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+10:55:14.483 [080-exec-3] WARN  a.p.p.p.b.e.c.WebDriverContext - 6. Retry task 2 in crawl scope | cause by: Driver pool is exhausted ([Lack of resource] | 0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+10:55:14.484 [080-exec-3] INFO  a.p.p.c.c.L.Task -   6. 💔 🔃 U for RR got 1601 25.43 KiB [💿44.67 KiB] in 0s, last fetched 155h55m51s ago, fc:1/8 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 2/27/3/88/2587 | 2ZCACq2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\46c08a9e50e6b4bc30840bde13a42758.htm | http://jsjds.blcu.edu.cn/gsjs1/shjsq.htm -refresh
+10:55:14.510 [080-exec-3] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 900.72 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+10:56:14.522 [080-exec-3] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | [Lack of resource] | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+10:56:14.523 [080-exec-3] WARN  a.p.p.p.b.e.c.WebDriverContext - 9. Retry task 3 in crawl scope | cause by: Driver pool is exhausted ([Lack of resource] | 0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+10:56:14.524 [080-exec-3] INFO  a.p.p.c.c.L.Task -   9. 💔 🔃 U for RR got 1601 12.60 KiB [💿24.68 KiB] in 0s, last fetched 155h56m43s ago, fc:1/8 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 2/27/1/35/1492 | 1ZAp2J2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\e22c394278b23b0253b5b0cb53653dd8.htm | http://jsjds.blcu.edu.cn/gsjs1/jnjsq.htm -refresh
+10:56:14.580 [080-exec-3] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 852.74 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+10:57:14.595 [080-exec-3] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | [Lack of resource] | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+10:57:14.596 [080-exec-3] WARN  a.p.p.p.b.e.c.WebDriverContext - 12. Retry task 4 in crawl scope | cause by: Driver pool is exhausted ([Lack of resource] | 0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+10:57:14.597 [080-exec-3] INFO  a.p.p.c.c.L.Task -  12. 💔 🔃 U for RR got 1601 27.06 KiB [💿47.13 KiB] in 0s, last fetched 155h56m43s ago, fc:1/8 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 2/27/2/63/3183 | 2ZCACq2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\a7eacc2a24c104d1aad183eacaf4dab1.htm | http://jsjds.blcu.edu.cn/gsjs1/syjsq.htm -refresh
+10:57:14.617 [080-exec-3] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 802.52 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+10:58:14.638 [080-exec-3] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | [Lack of resource] | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+10:58:14.638 [080-exec-3] WARN  a.p.p.p.b.e.c.WebDriverContext - 15. Retry task 5 in crawl scope | cause by: Driver pool is exhausted ([Lack of resource] | 0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+10:58:14.640 [080-exec-3] INFO  a.p.p.c.c.L.Task -  15. 💔 🔃 U for RR got 1601 13.03 KiB [💿23.17 KiB] in 0s, last fetched 155h57m34s ago, fc:1/8 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 2/27/0/39/971 | 1ZAp2J2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\05e384868c0cd499741840a38117f0f1.htm | http://jsjds.blcu.edu.cn/gsjs1/jsq1.htm -refresh
+10:58:14.662 [080-exec-3] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 399.69 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+10:59:14.671 [080-exec-3] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | [Lack of resource] | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+10:59:14.671 [080-exec-3] WARN  a.p.p.p.b.e.c.WebDriverContext - 18. Retry task 6 in crawl scope | cause by: Driver pool is exhausted ([Lack of resource] | 0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+10:59:14.674 [080-exec-3] INFO  a.p.p.c.c.L.Task -  18. 💔 🔃 U for RR got 1601 31.14 KiB [💿53.73 KiB] in 0s, last fetched 155h57m34s ago, fc:1/8 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 2/27/6/89/3593 | 2ZCACq2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\e8c06640f45b9f8f50df4b6f121cdd9f.htm | http://jsjds.blcu.edu.cn/gsjs1/smjsq.htm -refresh
+10:59:14.706 [080-exec-3] INFO  a.p.p.p.b.d.LoadingWebDriverPool - Critical memory: 700.86 MiB, 8/0/0 (slots/activeP/activeB), will not create new driver
+11:00:14.710 [080-exec-3] WARN  a.p.p.p.b.d.LoadingWebDriverPool - Driver pool is exhausted | [Lack of resource] | active: 0, standby: 0, waiting: 0, working: 0, slots: 8, retired: 0, closed: 0
+11:00:14.711 [080-exec-3] WARN  a.p.p.p.b.e.c.WebDriverContext - 21. Retry task 7 in crawl scope | cause by: Driver pool is exhausted ([Lack of resource] | 0/0/0/0/8/0/0 (active/standby/waiting/working/slots/retired/closed))
+11:00:14.712 [080-exec-3] INFO  a.p.p.c.c.L.Task -  21. 💔 🔃 U for RR got 1601 38.91 KiB [💿66.88 KiB] in 0s, last fetched 155h58m26s ago, fc:1/8 Retry(1601) rs: WebDriverUnavailableException, rsp: CRAWL | 2/27/9/101/4582 | 1ZAp2J2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\467cfb929b38c436510362b00469006f.htm | http://jsjds.blcu.edu.cn/gsjs1/hzjsq.htm -refresh
+11:00:14.728 [080-exec-3] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：422947ms
+11:02:00.342 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+11:02:00.343 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+11:02:00.343 [080-exec-6] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+11:02:00.844 [080-exec-6] INFO  a.p.p.c.ProcessLauncher - Launching process:
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --headless --disable-gpu --hide-scrollbars --remote-debugging-port=0 --no-default-browser-check --no-first-run --no-startup-window --mute-audio --disable-background-networking --disable-background-timer-throttling --disable-client-side-phishing-detection --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-translate --disable-blink-features=AutomationControlled --metrics-recording-only --safebrowsing-disable-auto-update --no-sandbox --ignore-certificate-errors --remote-allow-origins=* --window-size=1920,1080 --pageLoadStrategy=none --throwExceptionOnScriptError=true --user-data-dir=C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\context\cx.2ZCACq2\pulsar_chrome
+11:02:10.533 [080-exec-6] WARN  a.p.p.p.b.e.i.BrowserEmulatorImplBase - java.nio.file.FileSystemException: C:\Users\ASUS\AppData\Local\Temp\ln\d4ec238841810e993ccfb4251af9ad48.htm: 客户端没有所需的特权。
+11:02:10.610 [2-thread-1] INFO  a.p.p.p.b.d.WebDriverPoolManager - Maintaining service is started
+11:02:10.686 [080-exec-6] INFO  a.p.p.c.c.L.Task -  24. 💯 🔃 U for RR got 200 15.79 KiB <- 15.78 KiB [💿29.06 KiB] in 9.021s, last fetched 7m56s ago, fc:33 | 3/48/18/57/449 | 2ZCACq2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\d4ec238841810e993ccfb4251af9ad48.htm | http://jsjds.blcu.edu.cn/index.htm -refresh
+11:02:10.697 [080-exec-6] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：10353ms
+11:06:22.158 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+11:06:22.159 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+11:06:22.159 [080-exec-7] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+11:06:22.196 [080-exec-7] INFO  a.p.p.c.ProcessLauncher - Launching process:
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --headless --disable-gpu --hide-scrollbars --remote-debugging-port=0 --no-default-browser-check --no-first-run --no-startup-window --mute-audio --disable-background-networking --disable-background-timer-throttling --disable-client-side-phishing-detection --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-translate --disable-blink-features=AutomationControlled --metrics-recording-only --safebrowsing-disable-auto-update --no-sandbox --ignore-certificate-errors --remote-allow-origins=* --window-size=1920,1080 --pageLoadStrategy=none --throwExceptionOnScriptError=true --user-data-dir=C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\context\cx.1ZAp2J2\pulsar_chrome
+11:06:39.281 [080-exec-7] WARN  a.p.p.p.b.e.i.BrowserEmulatorImplBase - java.nio.file.FileSystemException: C:\Users\ASUS\AppData\Local\Temp\ln\84efa9754d0d2bbbf1a5d6ff0ef6d384.htm: 客户端没有所需的特权。
+11:06:39.338 [080-exec-7] INFO  a.p.p.c.c.L.Task -  27. 💯 🔃 U for RR got 200 267.91 KiB <- 272.79 KiB [💿444.79 KiB] in 16.853s, last fetched 156h10m56s ago, fc:13 | 3/916/370/936/8972 | 1ZAp2J2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\84efa9754d0d2bbbf1a5d6ff0ef6d384.htm | https://www.codeforces.com/contests -refresh
+11:06:39.423 [080-exec-7] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：17264ms
+11:06:42.331 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+11:06:42.332 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+11:06:42.332 [080-exec-8] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+11:06:51.488 [080-exec-8] WARN  a.p.p.p.b.e.i.BrowserEmulatorImplBase - java.nio.file.FileSystemException: C:\Users\ASUS\AppData\Local\Temp\ln\29bae2743145dd4aa00ce8751b553ecc.htm: 客户端没有所需的特权。
+11:06:51.551 [080-exec-8] INFO  a.p.p.c.c.L.Task -  30. 💯 Updated 🔃 U for RR got 200 96.57 KiB <- 94.15 KiB [💿129.25 KiB] in 9.074s, last fetched 156h9m58s ago, fc:31 | i/a/nm/st/h:10/132/14/156/2025 | 2ZCACq2 | file://C:\Users\ASUS\AppData\Local\Temp\ln\29bae2743145dd4aa00ce8751b553ecc.htm | https://www.luogu.com.cn -refresh
+11:06:51.575 [080-exec-8] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：9243ms
+11:09:06.389 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/4 | StaticPulsarContext
+11:09:06.391 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000003
+11:09:06.391 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000004
+11:09:06.392 [l-worker-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000001
+11:09:06.392 [l-worker-1] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000002
+11:09:06.393 [Thread-2] INFO  a.p.p.p.b.d.WebDriverPoolManager - Web driver pool manager is closed
+11:09:06.393 [Thread-2] INFO  a.p.p.c.f.p.PrivacyManager - Closing privacy contexts ...
+11:09:06.395 [Thread-2] INFO  a.p.p.p.b.e.c.BrowserPrivacyContext - Privacy context #2ZCACq2 has lived for 14m51s | success: 2(0.00 pages/s) | small: 0(0.0%) | traffic: 0 B(0 B/s) | tasks: 5 total run: 5 | null
+11:09:06.395 [Thread-2] INFO  a.p.p.p.b.e.c.WebDriverContext - Shutdown the underlying layer immediately
+11:09:06.395 [Thread-2] INFO  a.p.p.p.b.e.c.BrowserPrivacyContext - Privacy context #1ZAp2J2 has lived for 15m52s | success: 1(0.00 pages/s) | small: 0(0.0%) | traffic: 0 B(0 B/s) | tasks: 5 total run: 5 | null
+11:09:06.396 [Thread-2] INFO  a.p.p.p.b.e.c.WebDriverContext - Shutdown the underlying layer immediately
+11:09:06.425 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+11:09:06.441 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

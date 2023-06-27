@@ -1,0 +1,54 @@
+21:50:38.030 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:50:38.031 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:50:38.033 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:50:38.094 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:50:38.836 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:50:38.884 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:50:39.020 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:50:39.107 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1733439693
+21:50:39.116 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:50:40.419 [main] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:50:40.724 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:50:40.894 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💯 💿 U  got 200 95.88 KiB [💿128.75 KiB] in 9.884s, last fetched 300h53s ago, fc:1 | 11/133/16/162/2025 | https://www.luogu.com.cn 
+21:50:40.894 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💯 💿 U  got 200 95.88 KiB [💿128.75 KiB] in 9.884s, last fetched 300h53s ago, fc:1 | 11/133/16/162/2025 | https://www.luogu.com.cn 
+21:50:40.895 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:50:40.895 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:50:41.441 [main] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💯 💿 U  got 200 243.82 KiB <- 267.84 KiB [💿429.84 KiB] in 54.618s, last fetched 384h57m51s ago, fc:3 | 0/899/267/711/9462 | https://www.codeforces.com/contests 
+21:50:41.441 [main] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💯 💿 U  got 200 243.82 KiB <- 267.84 KiB [💿429.84 KiB] in 54.618s, last fetched 384h57m51s ago, fc:3 | 0/899/267/711/9462 | https://www.codeforces.com/contests 
+21:50:41.638 [main] INFO  a.p.p.c.component.LoadComponent.Task -   9. 💯 💿 U  got 200 15.80 KiB [💿29.00 KiB] in 8.631s, last fetched 265h19m7s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+21:50:41.638 [main] INFO  a.p.p.c.component.LoadComponent.Task -   9. 💯 💿 U  got 200 15.80 KiB [💿29.00 KiB] in 8.631s, last fetched 265h19m7s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+21:50:41.933 [main] INFO  a.p.p.c.component.LoadComponent.Task -  14. 💯 💿 U  got 200 25.43 KiB [💿44.67 KiB] in 9.113s, last fetched 265h8m9s ago, fc:1 | 2/27/3/88/2587 | http://jsjds.blcu.edu.cn/gsjs1/shjsq.htm 
+21:50:41.933 [main] INFO  a.p.p.c.component.LoadComponent.Task -  14. 💯 💿 U  got 200 25.43 KiB [💿44.67 KiB] in 9.113s, last fetched 265h8m9s ago, fc:1 | 2/27/3/88/2587 | http://jsjds.blcu.edu.cn/gsjs1/shjsq.htm 
+21:50:41.996 [main] INFO  a.p.p.c.component.LoadComponent.Task -  17. 💯 💿 U  got 200 12.60 KiB [💿24.68 KiB] in 8.988s, last fetched 265h8m ago, fc:1 | 2/27/1/35/1492 | http://jsjds.blcu.edu.cn/gsjs1/jnjsq.htm 
+21:50:41.996 [main] INFO  a.p.p.c.component.LoadComponent.Task -  17. 💯 💿 U  got 200 12.60 KiB [💿24.68 KiB] in 8.988s, last fetched 265h8m ago, fc:1 | 2/27/1/35/1492 | http://jsjds.blcu.edu.cn/gsjs1/jnjsq.htm 
+21:50:42.052 [main] INFO  a.p.p.c.component.LoadComponent.Task -  20. 💯 Loaded 💿 U  got 200 27.06 KiB [💿47.13 KiB] in 8.823s, last fetched 265h7m51s ago, fc:1 | i/a/nm/st/h:2/27/2/63/3183 | http://jsjds.blcu.edu.cn/gsjs1/syjsq.htm 
+21:50:42.052 [main] INFO  a.p.p.c.component.LoadComponent.Task -  20. 💯 Loaded 💿 U  got 200 27.06 KiB [💿47.13 KiB] in 8.823s, last fetched 265h7m51s ago, fc:1 | i/a/nm/st/h:2/27/2/63/3183 | http://jsjds.blcu.edu.cn/gsjs1/syjsq.htm 
+21:50:42.093 [main] INFO  a.p.p.c.component.LoadComponent.Task -  23. 💯 💿 U  got 200 13.03 KiB [💿23.17 KiB] in 8.808s, last fetched 265h7m42s ago, fc:1 | 2/27/0/39/971 | http://jsjds.blcu.edu.cn/gsjs1/jsq1.htm 
+21:50:42.093 [main] INFO  a.p.p.c.component.LoadComponent.Task -  23. 💯 💿 U  got 200 13.03 KiB [💿23.17 KiB] in 8.808s, last fetched 265h7m42s ago, fc:1 | 2/27/0/39/971 | http://jsjds.blcu.edu.cn/gsjs1/jsq1.htm 
+21:50:42.130 [main] INFO  a.p.p.c.component.LoadComponent.Task -  26. 💯 💿 U  got 200 31.14 KiB [💿53.73 KiB] in 8.334s, last fetched 265h7m34s ago, fc:1 | 2/27/6/89/3593 | http://jsjds.blcu.edu.cn/gsjs1/smjsq.htm 
+21:50:42.130 [main] INFO  a.p.p.c.component.LoadComponent.Task -  26. 💯 💿 U  got 200 31.14 KiB [💿53.73 KiB] in 8.334s, last fetched 265h7m34s ago, fc:1 | 2/27/6/89/3593 | http://jsjds.blcu.edu.cn/gsjs1/smjsq.htm 
+21:50:42.176 [main] INFO  a.p.p.c.component.LoadComponent.Task -  29. 💯 💿 U  got 200 38.91 KiB [💿66.88 KiB] in 8.825s, last fetched 265h7m25s ago, fc:1 | 2/27/9/101/4582 | http://jsjds.blcu.edu.cn/gsjs1/hzjsq.htm 
+21:50:42.176 [main] INFO  a.p.p.c.component.LoadComponent.Task -  29. 💯 💿 U  got 200 38.91 KiB [💿66.88 KiB] in 8.825s, last fetched 265h7m25s ago, fc:1 | 2/27/9/101/4582 | http://jsjds.blcu.edu.cn/gsjs1/hzjsq.htm 
+21:50:42.810 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/4 | StaticPulsarContext
+21:50:42.816 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000003
+21:50:42.816 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000004
+21:50:42.817 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000002
+21:53:38.972 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:53:38.973 [main] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:53:38.975 [main] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:53:39.015 [main] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:53:39.700 [main] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+21:53:39.746 [main] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:53:39.852 [main] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:53:39.936 [main] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1261095698
+21:53:39.947 [main] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:53:41.437 [main] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:53:41.706 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:53:41.858 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💯 💿 U  got 200 95.88 KiB [💿128.75 KiB] in 9.884s, last fetched 300h3m54s ago, fc:1 | 11/133/16/162/2025 | https://www.luogu.com.cn 
+21:53:41.858 [main] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💯 💿 U  got 200 95.88 KiB [💿128.75 KiB] in 9.884s, last fetched 300h3m54s ago, fc:1 | 11/133/16/162/2025 | https://www.luogu.com.cn 
+21:53:41.859 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:53:41.859 [main] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:53:42.401 [main] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💯 💿 U  got 200 243.82 KiB <- 267.84 KiB [💿429.84 KiB] in 54.618s, last fetched 385h52s ago, fc:3 | 0/899/267/711/9462 | https://www.codeforces.com/contests 
+21:53:42.401 [main] INFO  a.p.p.c.component.LoadComponent.Task -   6. 💯 💿 U  got 200 243.82 KiB <- 267.84 KiB [💿429.84 KiB] in 54.618s, last fetched 385h52s ago, fc:3 | 0/899/267/711/9462 | https://www.codeforces.com/contests 
+21:53:42.684 [main] INFO  a.p.p.c.component.LoadComponent.Task -   9. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 265h22m8s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+21:53:42.684 [main] INFO  a.p.p.c.component.LoadComponent.Task -   9. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 265h22m8s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 

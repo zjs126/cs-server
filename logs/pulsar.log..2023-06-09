@@ -1,0 +1,322 @@
+22:27:57.043 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 38580 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+22:27:57.051 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+22:27:59.598 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:27:59.598 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+22:27:59.599 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+22:27:59.957 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+22:28:00.503 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.Post ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+22:28:00.663 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 42340 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+22:28:00.666 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+22:28:00.667 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+22:28:01.705 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:28:02.229 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:28:02.229 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+22:28:02.230 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+22:28:02.333 [main] INFO  com.spring.Application - Started Application in 5.83 seconds (JVM running for 8.524)
+22:28:02.411 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+22:28:02.762 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.Post ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+22:28:02.860 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+22:28:03.481 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:28:03.484 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+22:28:03.488 [main] INFO  o.a.c.h.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+22:28:03.489 [main] INFO  o.a.c.core.StandardService - Stopping service [Tomcat]
+22:28:03.494 [main] INFO  o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+22:28:03.495 [main] INFO  o.a.c.h.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+22:28:03.534 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+22:28:20.060 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 26388 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+22:28:20.063 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+22:28:21.369 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+22:28:21.369 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+22:28:21.369 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+22:28:21.565 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+22:28:21.904 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.Post ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+22:28:21.989 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+22:28:22.563 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+22:28:22.736 [main] INFO  com.spring.Application - Started Application in 3.279 seconds (JVM running for 5.507)
+22:28:39.314 [080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+22:28:39.349 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:28:39.349 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:28:39.349 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:28:39.349 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:28:39.350 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+22:28:39.350 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+22:28:39.350 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+22:28:39.350 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+22:28:40.750 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:28:40.751 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:28:40.759 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+22:28:40.759 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+22:28:40.822 [080-exec-6] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null, postnumbers=0)
+22:28:40.855 [080-exec-6] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+22:28:41.188 [080-exec-6] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+22:28:41.243 [080-exec-6] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：413ms
+22:28:41.786 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:28:41.787 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:28:41.790 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:28:41.790 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:28:41.791 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:28:41.805 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:28:41.805 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:28:41.805 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:28:41.805 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:28:41.806 [080-exec-4] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+22:28:41.806 [080-exec-3] INFO  c.s.c.CrawlController - 计算机大赛内容
+22:28:41.805 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:28:41.806 [080-exec-1] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+22:28:41.806 [080-exec-2] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+22:28:41.808 [80-exec-10] INFO  c.s.c.UserController - 用户信息获取
+22:28:41.820 [80-exec-10] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：11ms
+22:28:41.824 [080-exec-4] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：18ms
+22:28:41.825 [080-exec-1] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：19ms
+22:28:41.827 [080-exec-3] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：21ms
+22:28:41.829 [080-exec-2] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：21ms
+22:29:50.335 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:29:50.336 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:29:50.336 [80-exec-10] INFO  c.s.c.UserController - 用户信息获取
+22:29:50.339 [80-exec-10] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：2ms
+22:29:50.384 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:29:50.384 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:29:50.384 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:29:50.384 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:29:50.385 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:29:50.385 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:29:50.385 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:29:50.385 [080-exec-1] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+22:29:50.385 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:29:50.385 [080-exec-4] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+22:29:50.385 [080-exec-2] INFO  c.s.c.CrawlController - 计算机大赛内容
+22:29:50.385 [080-exec-3] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+22:29:50.388 [080-exec-4] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：3ms
+22:29:50.388 [080-exec-3] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：2ms
+22:29:50.389 [080-exec-2] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：4ms
+22:29:50.390 [080-exec-1] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：5ms
+22:29:54.769 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:29:54.770 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:29:54.770 [080-exec-9] INFO  c.s.c.UserController - 用户信息获取
+22:29:54.773 [080-exec-9] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：2ms
+22:30:00.909 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:30:00.909 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:00.909 [080-exec-7] INFO  c.s.c.UserController - 用户信息获取
+22:30:00.914 [080-exec-7] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：4ms
+22:30:00.918 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchPostByUsername/lxy
+22:30:00.921 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:00.931 [080-exec-6] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchPostByUsername(String)方法执行耗时：8ms
+22:30:19.651 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/username
+22:30:19.651 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findPostById/35
+22:30:19.651 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:30:19.652 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:19.652 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:19.652 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:19.652 [080-exec-8] INFO  c.s.c.UserController - 用户信息获取
+22:30:19.655 [080-exec-5] INFO  c.s.c.UserController - 通过用户名查询用户
+22:30:19.655 [080-exec-8] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：2ms
+22:30:19.656 [80-exec-10] INFO  com.spring.aop.TimeAspect - Post com.spring.service.impl.ForumPostServiceImpl.findById(Integer)方法执行耗时：2ms
+22:30:19.658 [080-exec-5] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.searchUserbyName(String)方法执行耗时：2ms
+22:30:19.667 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchStatement/35
+22:30:19.668 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:19.670 [080-exec-4] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchStatement(String)方法执行耗时：2ms
+22:30:19.676 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchStatement/36
+22:30:19.678 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:19.680 [080-exec-3] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchStatement(String)方法执行耗时：2ms
+22:30:19.751 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchStatement/37
+22:30:19.751 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:19.753 [080-exec-2] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchStatement(String)方法执行耗时：1ms
+22:30:23.022 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:30:23.023 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:23.023 [080-exec-1] INFO  c.s.c.UserController - 用户信息获取
+22:30:23.025 [080-exec-1] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：2ms
+22:30:23.028 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:30:23.029 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:23.030 [080-exec-9] INFO  c.s.c.UserController - 用户信息获取
+22:30:23.032 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchPostByUsername/lxy
+22:30:23.033 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:23.034 [080-exec-9] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：4ms
+22:30:23.035 [080-exec-7] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchPostByUsername(String)方法执行耗时：2ms
+22:30:28.605 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:30:28.606 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:28.606 [080-exec-6] INFO  c.s.c.UserController - 用户信息获取
+22:30:28.610 [080-exec-6] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：3ms
+22:30:28.614 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchPostByUsername/lxy
+22:30:28.615 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:28.618 [080-exec-8] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchPostByUsername(String)方法执行耗时：2ms
+22:30:30.935 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findAll
+22:30:30.936 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:30.940 [80-exec-10] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.findAll()方法执行耗时：4ms
+22:30:49.111 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findAll
+22:30:49.112 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:49.115 [080-exec-5] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.findAll()方法执行耗时：3ms
+22:30:49.964 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:30:49.964 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:30:49.964 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:30:49.965 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:30:49.965 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:49.965 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:49.965 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:49.965 [080-exec-3] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+22:30:49.965 [080-exec-2] INFO  c.s.c.CrawlController - 计算机大赛内容
+22:30:49.965 [080-exec-4] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+22:30:49.966 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:30:49.967 [080-exec-1] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+22:30:49.967 [080-exec-4] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：2ms
+22:30:49.967 [080-exec-3] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：2ms
+22:30:49.968 [080-exec-2] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：3ms
+22:30:49.968 [080-exec-1] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：1ms
+22:31:01.714 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findAll
+22:31:01.714 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:31:01.717 [080-exec-7] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.findAll()方法执行耗时：3ms
+22:31:09.197 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findAll
+22:31:09.198 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:31:09.201 [080-exec-6] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.findAll()方法执行耗时：3ms
+22:31:14.147 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:31:14.147 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:31:14.147 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:31:14.147 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:31:14.147 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:31:14.147 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:31:14.147 [080-exec-3] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+22:31:14.148 [080-exec-8] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+22:31:14.148 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:31:14.148 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:31:14.148 [080-exec-5] INFO  c.s.c.CrawlController - 计算机大赛内容
+22:31:14.148 [80-exec-10] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+22:31:14.149 [080-exec-8] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：1ms
+22:31:14.149 [080-exec-5] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：1ms
+22:31:14.149 [080-exec-3] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：2ms
+22:31:14.149 [80-exec-10] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：1ms
+22:36:01.058 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findAll
+22:36:01.059 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:01.063 [080-exec-7] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.findAll()方法执行耗时：3ms
+22:36:09.244 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:36:09.245 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:09.245 [080-exec-6] INFO  c.s.c.UserController - 用户信息获取
+22:36:09.248 [080-exec-6] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：3ms
+22:36:11.978 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:36:11.979 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:11.979 [080-exec-8] INFO  c.s.c.UserController - 用户信息获取
+22:36:11.982 [080-exec-8] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：3ms
+22:36:11.986 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchPostByUsername/lxy
+22:36:11.986 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:11.989 [80-exec-10] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchPostByUsername(String)方法执行耗时：3ms
+22:36:14.666 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/username
+22:36:14.666 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:14.667 [080-exec-3] INFO  c.s.c.UserController - 通过用户名查询用户
+22:36:14.667 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:36:14.667 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findPostById/35
+22:36:14.667 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:14.667 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:14.667 [080-exec-2] INFO  c.s.c.UserController - 用户信息获取
+22:36:14.669 [080-exec-3] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.searchUserbyName(String)方法执行耗时：2ms
+22:36:14.669 [080-exec-5] INFO  com.spring.aop.TimeAspect - Post com.spring.service.impl.ForumPostServiceImpl.findById(Integer)方法执行耗时：2ms
+22:36:14.670 [080-exec-2] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：2ms
+22:36:14.682 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchStatement/35
+22:36:14.683 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:14.686 [080-exec-1] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchStatement(String)方法执行耗时：3ms
+22:36:14.690 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchStatement/36
+22:36:14.691 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:14.694 [080-exec-4] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchStatement(String)方法执行耗时：2ms
+22:36:14.726 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchStatement/37
+22:36:14.727 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:14.728 [080-exec-9] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchStatement(String)方法执行耗时：1ms
+22:36:16.126 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:36:16.126 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:16.127 [080-exec-7] INFO  c.s.c.UserController - 用户信息获取
+22:36:16.130 [080-exec-7] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：2ms
+22:36:16.133 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:36:16.134 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:16.134 [080-exec-6] INFO  c.s.c.UserController - 用户信息获取
+22:36:16.136 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/searchPostByUsername/lxy
+22:36:16.136 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:16.137 [080-exec-6] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：2ms
+22:36:16.138 [080-exec-8] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.searchPostByUsername(String)方法执行耗时：2ms
+22:36:20.656 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findAll
+22:36:20.657 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:20.660 [80-exec-10] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.findAll()方法执行耗时：3ms
+22:36:21.950 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:36:21.950 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:36:21.950 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:36:21.951 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:21.951 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:36:21.951 [080-exec-5] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+22:36:21.951 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:21.951 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:21.951 [080-exec-3] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+22:36:21.951 [080-exec-1] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+22:36:21.951 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:21.951 [080-exec-2] INFO  c.s.c.CrawlController - 计算机大赛内容
+22:36:21.952 [080-exec-5] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：1ms
+22:36:21.953 [080-exec-3] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：2ms
+22:36:21.953 [080-exec-1] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：2ms
+22:36:21.953 [080-exec-2] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：2ms
+22:36:49.813 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/forum/findAll
+22:36:49.814 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:36:49.816 [080-exec-4] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.ForumPostServiceImpl.findAll()方法执行耗时：2ms
+22:37:02.374 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/user
+22:37:02.374 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:02.374 [080-exec-9] INFO  c.s.c.UserController - 用户信息获取
+22:37:02.377 [080-exec-9] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.UserSearch(Integer,String)方法执行耗时：3ms
+22:37:39.927 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:37:39.928 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:39.928 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:37:39.928 [80-exec-10] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+22:37:39.929 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:39.929 [080-exec-5] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+22:37:39.929 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:37:39.930 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:39.930 [80-exec-10] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：2ms
+22:37:39.930 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:37:39.930 [080-exec-1] INFO  c.s.c.CrawlController - 计算机大赛内容
+22:37:39.930 [080-exec-5] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：1ms
+22:37:39.930 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:39.931 [080-exec-3] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+22:37:39.932 [080-exec-1] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：2ms
+22:37:39.932 [080-exec-3] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：1ms
+22:37:48.285 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:37:48.286 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:37:48.286 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:48.286 [080-exec-2] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+22:37:48.286 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:37:48.286 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:37:48.286 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:48.286 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:48.286 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:37:48.286 [080-exec-4] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+22:37:48.286 [080-exec-7] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+22:37:48.286 [080-exec-9] INFO  c.s.c.CrawlController - 计算机大赛内容
+22:37:48.287 [080-exec-2] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：1ms
+22:37:48.288 [080-exec-9] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：2ms
+22:37:48.288 [080-exec-4] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：2ms
+22:37:48.288 [080-exec-7] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：2ms
+22:37:56.935 [080-exec-8] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @3cfdd820
+22:37:57.133 [080-exec-8] INFO  com.spring.aop.TimeAspect - Page com.spring.service.impl.QuestionBankServiceImpl.searchLuoGuQuestions(String,Integer,Integer)方法执行耗时：239ms
+22:37:57.133 [080-exec-8] INFO  c.s.c.QuestionBankController - 尝试获取题目 获取题目成功 pages:1, rows:40
+22:38:14.363 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+22:38:14.363 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+22:38:14.364 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdscontent
+22:38:14.364 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:38:14.364 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:38:14.364 [80-exec-10] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+22:38:14.364 [080-exec-6] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+22:38:14.364 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:38:14.364 [080-exec-5] INFO  c.s.c.CrawlController - 计算机大赛内容
+22:38:14.365 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/jsjdsothers
+22:38:14.365 [80-exec-10] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：1ms
+22:38:14.366 [080-exec-5] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：2ms
+22:38:14.366 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+22:38:14.366 [080-exec-1] INFO  c.s.c.CrawlController - 计算机大赛其他信息
+22:38:14.365 [080-exec-6] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：1ms
+22:38:14.368 [080-exec-1] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：2ms
+22:38:49.398 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+22:38:49.406 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

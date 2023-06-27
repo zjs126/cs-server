@@ -1,0 +1,48 @@
+08:31:22.021 [080-exec-7] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 299h59m48s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+08:31:22.023 [080-exec-7] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+08:32:21.038 [080-exec-6] INFO  a.p.p.c.c.L.Task -  10. 💯 Loaded 💿 U  got 200 95.88 KiB [💿128.75 KiB] in 9.884s, last fetched 334h42m33s ago, fc:1 | i/a/nm/st/h:11/133/16/162/2025 | https://www.luogu.com.cn 
+08:32:31.256 [080-exec-3] INFO  a.p.p.c.c.L.Task -  13. 💯 💿 U  got 200 243.82 KiB <- 267.84 KiB [💿429.84 KiB] in 54.618s, last fetched 419h39m41s ago, fc:3 | 0/899/267/711/9462 | https://www.codeforces.com/contests 
+08:34:41.462 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h3m7s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+08:34:41.463 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+08:40:51.080 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h9m17s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+08:40:51.081 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+08:41:13.918 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h9m39s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+08:41:13.919 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+08:41:41.890 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h10m7s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+08:41:41.891 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+08:45:28.420 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h13m54s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+08:45:28.422 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+08:47:30.844 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h15m56s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+08:47:30.846 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+08:57:19.952 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h25m46s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+08:57:19.953 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+09:20:54.434 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h49m20s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+09:20:54.435 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+09:21:57.249 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h50m23s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+09:21:57.250 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+09:24:11.902 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h52m37s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+09:24:11.903 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+09:26:32.984 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 300h54m59s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+09:26:32.987 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:19:08.902 [main] INFO  a.p.p.c.c.L.Task -   2. 💯 ⚡ U for N got 200 15.80 KiB [💿29.04 KiB] in 9.32s, fc:1 | 3/48/18/57/449 | 1Y3NjH7 | file://C:\Users\ASUS\AppData\Local\Temp\ln\d4ec238841810e993ccfb4251af9ad48.htm | http://jsjds.blcu.edu.cn/index.htm 
+10:19:08.904 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:19:09.117 [main] INFO  a.p.p.c.c.L.Task -   5. 💯 💿 U  got 200 25.43 KiB [💿44.67 KiB] in 9.113s, last fetched 301h36m36s ago, fc:1 | 2/27/3/88/2587 | http://jsjds.blcu.edu.cn/gsjs1/shjsq.htm 
+10:19:09.193 [main] INFO  a.p.p.c.c.L.Task -   8. 💯 💿 U  got 200 12.60 KiB [💿24.68 KiB] in 8.988s, last fetched 301h36m27s ago, fc:1 | 2/27/1/35/1492 | http://jsjds.blcu.edu.cn/gsjs1/jnjsq.htm 
+10:19:09.236 [main] INFO  a.p.p.c.c.L.Task -  11. 💯 💿 U  got 200 27.06 KiB [💿47.13 KiB] in 8.823s, last fetched 301h36m18s ago, fc:1 | 2/27/2/63/3183 | http://jsjds.blcu.edu.cn/gsjs1/syjsq.htm 
+10:19:09.279 [main] INFO  a.p.p.c.c.L.Task -  14. 💯 💿 U  got 200 13.03 KiB [💿23.17 KiB] in 8.808s, last fetched 301h36m9s ago, fc:1 | 2/27/0/39/971 | http://jsjds.blcu.edu.cn/gsjs1/jsq1.htm 
+10:19:09.321 [main] INFO  a.p.p.c.c.L.Task -  17. 💯 💿 U  got 200 31.14 KiB [💿53.73 KiB] in 8.334s, last fetched 301h36m1s ago, fc:1 | 2/27/6/89/3593 | http://jsjds.blcu.edu.cn/gsjs1/smjsq.htm 
+10:19:09.384 [main] INFO  a.p.p.c.c.L.Task -  20. 💯 Loaded 💿 U  got 200 38.91 KiB [💿66.88 KiB] in 8.825s, last fetched 301h35m52s ago, fc:1 | i/a/nm/st/h:2/27/9/101/4582 | http://jsjds.blcu.edu.cn/gsjs1/hzjsq.htm 
+10:48:00.937 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 15.80 KiB [💿29.04 KiB] in 9.32s, last fetched 28m52s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn/index.htm 
+10:48:00.938 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:48:01.509 [main] INFO  a.p.p.c.c.L.Task -   6. 💯 💿 U  got 200 25.43 KiB [💿44.67 KiB] in 9.113s, last fetched 302h5m29s ago, fc:1 | 2/27/3/88/2587 | http://jsjds.blcu.edu.cn/gsjs1/shjsq.htm 
+10:48:01.569 [main] INFO  a.p.p.c.c.L.Task -   9. 💯 💿 U  got 200 12.60 KiB [💿24.68 KiB] in 8.988s, last fetched 302h5m19s ago, fc:1 | 2/27/1/35/1492 | http://jsjds.blcu.edu.cn/gsjs1/jnjsq.htm 
+10:48:01.614 [main] INFO  a.p.p.c.c.L.Task -  12. 💯 💿 U  got 200 27.06 KiB [💿47.13 KiB] in 8.823s, last fetched 302h5m10s ago, fc:1 | 2/27/2/63/3183 | http://jsjds.blcu.edu.cn/gsjs1/syjsq.htm 
+10:48:01.670 [main] INFO  a.p.p.c.c.L.Task -  15. 💯 💿 U  got 200 13.03 KiB [💿23.17 KiB] in 8.808s, last fetched 302h5m2s ago, fc:1 | 2/27/0/39/971 | http://jsjds.blcu.edu.cn/gsjs1/jsq1.htm 
+10:48:01.708 [main] INFO  a.p.p.c.c.L.Task -  18. 💯 💿 U  got 200 31.14 KiB [💿53.73 KiB] in 8.334s, last fetched 302h4m53s ago, fc:1 | 2/27/6/89/3593 | http://jsjds.blcu.edu.cn/gsjs1/smjsq.htm 
+10:48:01.762 [main] INFO  a.p.p.c.c.L.Task -  21. 💯 💿 U  got 200 38.91 KiB [💿66.88 KiB] in 8.825s, last fetched 302h4m44s ago, fc:1 | 2/27/9/101/4582 | http://jsjds.blcu.edu.cn/gsjs1/hzjsq.htm 
+10:48:39.062 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 15.80 KiB [💿29.04 KiB] in 9.32s, last fetched 29m30s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn/index.htm 
+10:48:39.063 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+11:03:37.466 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 15.80 KiB [💿29.04 KiB] in 9.32s, last fetched 44m28s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn/index.htm 
+11:03:37.468 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+11:35:32.251 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 95.88 KiB [💿128.75 KiB] in 9.884s, last fetched 337h45m44s ago, fc:1 | 11/133/16/162/2025 | https://www.luogu.com.cn 
+11:35:32.252 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc

@@ -1,0 +1,313 @@
+15:53:58.133 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 4864 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+15:53:58.136 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+15:54:00.199 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+15:54:00.199 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+15:54:00.200 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:54:00.214 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+15:54:00.241 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:54:00.242 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+15:54:00.244 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+15:54:00.672 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15:54:01.348 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+15:54:01.349 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+15:54:02.200 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:54:02.241 [main] INFO  com.spring.Application - Started Application in 4.749 seconds (JVM running for 7.208)
+15:56:32.861 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:56:32.895 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/questionBank/getLuoGuQuestions//1/40
+15:56:32.897 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:56:38.199 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/questionBank/getLuoGuQuestions//2/40
+15:56:38.200 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+15:58:13.878 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 6336 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+15:58:13.882 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+15:58:15.497 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+15:58:15.498 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+15:58:15.498 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:58:15.506 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+15:58:15.524 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:58:15.525 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+15:58:15.525 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+15:58:15.734 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15:58:16.222 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+15:58:16.223 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+15:58:17.035 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:58:17.085 [main] INFO  com.spring.Application - Started Application in 3.742 seconds (JVM running for 5.482)
+15:59:03.629 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+15:59:43.422 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 11628 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+15:59:43.426 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+15:59:45.102 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+15:59:45.103 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+15:59:45.103 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:59:45.110 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+15:59:45.127 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+15:59:45.128 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+15:59:45.128 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+15:59:45.335 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+15:59:45.774 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+15:59:45.774 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+15:59:46.563 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+15:59:46.597 [main] INFO  com.spring.Application - Started Application in 3.716 seconds (JVM running for 5.376)
+16:00:08.043 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:00:08.149 [080-exec-1] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @471a9022
+16:00:08.167 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:00:08.557 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:00:50.261 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:00:50.271 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:05:43.228 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 1888 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+16:05:43.231 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+16:05:45.006 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+16:05:45.006 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:05:45.007 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:05:45.012 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+16:05:45.021 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:05:45.022 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+16:05:45.022 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:05:45.208 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:05:45.642 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+16:05:45.643 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+16:05:46.412 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:05:46.460 [main] INFO  com.spring.Application - Started Application in 3.749 seconds (JVM running for 5.394)
+16:06:00.456 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:06:00.555 [080-exec-1] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @471a9022
+16:06:00.572 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:06:00.946 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:07:28.907 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:07:28.919 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:07:34.339 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 8484 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+16:07:34.342 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+16:07:36.003 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+16:07:36.003 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:07:36.003 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:07:36.009 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+16:07:36.017 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:07:36.018 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+16:07:36.018 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:07:36.219 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:07:36.762 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+16:07:36.762 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+16:07:37.454 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:07:37.492 [main] INFO  com.spring.Application - Started Application in 3.73 seconds (JVM running for 5.354)
+16:08:31.069 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:10:11.083 [080-exec-4] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @471a9022
+16:10:11.099 [080-exec-4] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:10:11.377 [080-exec-4] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:12:23.482 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:12:23.492 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:21:19.369 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 7276 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+16:21:19.374 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+16:21:21.323 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+16:21:21.323 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:21:21.324 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:21:21.362 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+16:21:21.382 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:21:21.383 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+16:21:21.384 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:21:21.630 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:21:22.221 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+16:21:22.221 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+16:21:23.268 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:21:23.313 [main] INFO  com.spring.Application - Started Application in 4.524 seconds (JVM running for 6.355)
+16:21:30.703 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:21:30.865 [080-exec-1] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @15f47664
+16:21:30.894 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:21:31.311 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:29:22.330 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:29:22.340 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:34:03.132 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 5488 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+16:34:03.136 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+16:34:06.084 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+16:34:06.084 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:34:06.084 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:34:06.096 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+16:34:06.110 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:34:06.111 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+16:34:06.111 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:34:06.440 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:34:07.111 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+16:34:07.111 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+16:34:08.058 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:34:08.100 [main] INFO  com.spring.Application - Started Application in 5.883 seconds (JVM running for 7.816)
+16:36:21.019 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:36:21.180 [080-exec-1] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @471a9022
+16:36:21.194 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:36:21.634 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:38:50.024 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:38:50.036 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:57:32.609 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 11556 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+16:57:32.614 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+16:57:34.400 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+16:57:34.401 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:57:34.401 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:57:34.437 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+16:57:34.450 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:57:34.451 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+16:57:34.451 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:57:34.680 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:57:35.180 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+16:57:35.180 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+16:57:36.160 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:57:36.198 [main] INFO  com.spring.Application - Started Application in 4.161 seconds (JVM running for 6.469)
+16:58:44.999 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:58:45.101 [080-exec-1] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @471a9022
+16:58:45.116 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:58:45.514 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:58:46.682 [080-exec-1] INFO  com.spring.aop.TimeAspect - Page com.spring.service.impl.QuestionBankServiceImpl.searchCFQuestions(String,Integer,Integer)方法执行耗时：1632ms
+16:58:46.685 [080-exec-1] INFO  c.s.c.QuestionBankController - 尝试获取题目：,0,1 pages: 1 rows: 40
+17:03:47.133 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:03:47.140 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:10:14.250 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 6968 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+17:10:14.252 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+17:10:15.673 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:10:15.673 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:10:15.673 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:10:15.680 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:10:15.691 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:10:15.691 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+17:10:15.692 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:10:15.921 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:10:16.358 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+17:10:16.358 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:10:17.236 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:10:17.303 [main] INFO  com.spring.Application - Started Application in 3.471 seconds (JVM running for 4.866)
+17:10:23.104 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:10:23.201 [080-exec-1] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @2462cb01
+17:10:23.215 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+17:10:23.471 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+17:10:23.601 [080-exec-1] INFO  com.spring.aop.TimeAspect - Page com.spring.service.impl.QuestionBankServiceImpl.searchLuoGuQuestions(String,Integer,Integer)方法执行耗时：450ms
+17:10:23.602 [080-exec-1] INFO  c.s.c.QuestionBankController - 尝试获取题目 获取题目成功 pages:1, rows:40
+17:10:48.352 [080-exec-3] INFO  com.spring.aop.TimeAspect - Page com.spring.service.impl.QuestionBankServiceImpl.searchLuoGuQuestions(String,Integer,Integer)方法执行耗时：77ms
+17:10:48.352 [080-exec-3] INFO  c.s.c.QuestionBankController - 尝试获取题目 获取题目成功 pages:1, rows:40
+17:11:06.447 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:11:06.453 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:15:39.819 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 7944 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+17:15:39.821 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+17:15:41.065 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:15:41.065 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:15:41.065 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:15:41.073 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:15:41.084 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:15:41.084 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+17:15:41.085 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:15:41.251 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:15:41.638 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+17:15:41.638 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:15:42.310 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:15:42.344 [main] INFO  com.spring.Application - Started Application in 2.908 seconds (JVM running for 4.156)
+17:16:33.202 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 11968 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+17:16:33.205 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+17:16:34.493 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:16:34.493 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:16:34.493 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:16:34.499 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:16:34.509 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:16:34.509 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+17:16:34.510 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:16:34.693 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:16:35.071 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+17:16:35.071 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:16:35.666 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:16:35.694 [main] INFO  com.spring.Application - Started Application in 2.897 seconds (JVM running for 4.088)
+17:16:45.438 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:16:45.453 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+17:16:45.454 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+17:16:45.473 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+17:16:45.473 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+17:16:45.549 [080-exec-3] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=zjs, password=123456, gender=null, email=null, phone=null, tag=null, postnumbers=0)
+17:16:45.580 [080-exec-3] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+17:16:45.820 [080-exec-3] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+17:16:45.856 [080-exec-3] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：300ms
+17:16:54.263 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+17:16:54.263 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+17:16:54.264 [080-exec-6] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=zjs, password=123456, gender=null, email=null, phone=null, tag=null, postnumbers=0)
+17:16:54.266 [080-exec-6] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：2ms
+17:17:45.290 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:17:45.296 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:24:30.753 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 7976 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+17:24:30.755 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+17:24:32.581 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:24:32.581 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:24:32.581 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:24:32.621 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:24:32.631 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:24:32.632 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+17:24:32.632 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:24:32.878 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:24:33.509 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+17:24:33.509 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:24:34.265 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:24:34.319 [main] INFO  com.spring.Application - Started Application in 4.048 seconds (JVM running for 6.117)
+17:25:20.518 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:25:20.534 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+17:25:20.536 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+17:25:38.385 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+17:25:38.385 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+17:25:38.433 [080-exec-3] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=zjs, password=123456, gender=null, email=null, phone=null, tag=null, postnumbers=0)
+17:25:38.477 [080-exec-3] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+17:25:38.917 [080-exec-3] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+17:25:38.969 [080-exec-3] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：528ms
+17:35:55.652 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/submitAnswerLuogu
+17:35:55.662 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+17:35:55.667 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/error
+17:35:55.668 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+17:36:25.362 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/questionBank/submitAnswerLuogu
+17:36:25.362 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+17:36:34.998 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/questionBank/submitAnswerLuogu
+17:36:34.999 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+17:37:58.470 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:37:58.479 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:38:03.361 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 2260 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+17:38:03.365 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+17:38:04.918 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:38:04.918 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:38:04.918 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:38:04.926 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:38:04.938 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:38:04.938 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+17:38:04.939 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:38:05.133 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:38:05.597 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+17:38:05.597 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:38:27.101 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:38:27.137 [main] INFO  com.spring.Application - Started Application in 24.299 seconds (JVM running for 26.398)
+17:38:48.126 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 9228 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+17:38:48.130 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+17:38:49.852 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:38:49.852 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:38:49.852 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:38:49.858 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:38:49.868 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:38:49.869 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+17:38:49.870 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:38:50.072 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:38:50.716 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+17:38:50.716 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:39:14.368 [main] INFO  com.spring.Application - Started Application in 26.745 seconds (JVM running for 28.797)
+17:39:33.024 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 8528 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+17:39:33.029 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+17:39:34.618 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:39:34.618 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:39:34.618 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:39:34.624 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:39:34.635 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:39:34.636 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+17:39:34.636 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:39:34.858 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:39:35.325 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+17:39:35.326 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:40:43.656 [main] INFO  com.spring.Application - Started Application in 71.107 seconds (JVM running for 72.888)
+17:40:49.521 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 5936 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+17:40:49.528 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+17:40:52.252 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+17:40:52.253 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+17:40:52.253 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17:40:52.262 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+17:40:52.279 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:40:52.279 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+17:40:52.280 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+17:40:52.619 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+17:40:53.250 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+17:40:53.250 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+17:40:54.325 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:40:54.376 [main] INFO  com.spring.Application - Started Application in 5.659 seconds (JVM running for 8.029)
+17:41:03.078 [080-exec-2] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:41:13.459 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/questionBank/submitAnswerLuogu
+17:41:37.363 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行

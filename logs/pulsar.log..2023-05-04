@@ -1,0 +1,82 @@
+21:41:30.694 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 12192 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+21:41:30.698 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+21:41:32.799 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+21:41:32.799 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21:41:32.800 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:41:32.837 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+21:41:32.853 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:41:32.854 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+21:41:32.855 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+21:41:33.129 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+21:41:34.865 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:41:34.922 [main] INFO  com.spring.Application - Started Application in 4.842 seconds (JVM running for 6.506)
+21:41:58.217 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:41:58.241 [080-exec-1] INFO  c.s.c.LoginController - 注册
+21:42:34.633 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 7868 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+21:42:34.635 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+21:42:36.276 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+21:42:36.276 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+21:42:36.276 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:42:36.287 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+21:42:36.301 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+21:42:36.302 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+21:42:36.302 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+21:42:36.509 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+21:42:37.496 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+21:42:37.538 [main] INFO  com.spring.Application - Started Application in 3.378 seconds (JVM running for 4.979)
+21:42:40.862 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:42:40.876 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/register
+21:42:40.877 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+21:50:33.140 [main] INFO  c.spring.ApplicationTests - Starting ApplicationTests using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 10916 (started by ASUS in D:\workplace\Spring)
+21:50:33.148 [main] INFO  c.spring.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+21:50:37.262 [main] INFO  c.spring.ApplicationTests - Started ApplicationTests in 4.642 seconds (JVM running for 6.359)
+21:50:38.030 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:50:38.031 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:50:38.033 [main] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:50:38.094 [main] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:50:38.836 [main] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+21:50:38.884 [main] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:50:39.020 [main] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:50:39.107 [main] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @1733439693
+21:50:39.116 [main] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:50:40.419 [main] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:50:40.724 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:50:40.894 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 95.88 KiB [💿128.75 KiB] in 9.884s, last fetched 300h53s ago, fc:1 | 11/133/16/162/2025 | https://www.luogu.com.cn 
+21:50:40.895 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:50:41.362 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：3398ms
+21:50:41.441 [main] INFO  a.p.p.c.c.L.Task -   6. 💯 💿 U  got 200 243.82 KiB <- 267.84 KiB [💿429.84 KiB] in 54.618s, last fetched 384h57m51s ago, fc:3 | 0/899/267/711/9462 | https://www.codeforces.com/contests 
+21:50:41.609 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：224ms
+21:50:41.638 [main] INFO  a.p.p.c.c.L.Task -   9. 💯 💿 U  got 200 15.80 KiB [💿29.00 KiB] in 8.631s, last fetched 265h19m7s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+21:50:41.672 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：53ms
+21:50:41.933 [main] INFO  a.p.p.c.c.L.Task -  14. 💯 💿 U  got 200 25.43 KiB [💿44.67 KiB] in 9.113s, last fetched 265h8m9s ago, fc:1 | 2/27/3/88/2587 | http://jsjds.blcu.edu.cn/gsjs1/shjsq.htm 
+21:50:41.996 [main] INFO  a.p.p.c.c.L.Task -  17. 💯 💿 U  got 200 12.60 KiB [💿24.68 KiB] in 8.988s, last fetched 265h8m ago, fc:1 | 2/27/1/35/1492 | http://jsjds.blcu.edu.cn/gsjs1/jnjsq.htm 
+21:50:42.052 [main] INFO  a.p.p.c.c.L.Task -  20. 💯 Loaded 💿 U  got 200 27.06 KiB [💿47.13 KiB] in 8.823s, last fetched 265h7m51s ago, fc:1 | i/a/nm/st/h:2/27/2/63/3183 | http://jsjds.blcu.edu.cn/gsjs1/syjsq.htm 
+21:50:42.093 [main] INFO  a.p.p.c.c.L.Task -  23. 💯 💿 U  got 200 13.03 KiB [💿23.17 KiB] in 8.808s, last fetched 265h7m42s ago, fc:1 | 2/27/0/39/971 | http://jsjds.blcu.edu.cn/gsjs1/jsq1.htm 
+21:50:42.130 [main] INFO  a.p.p.c.c.L.Task -  26. 💯 💿 U  got 200 31.14 KiB [💿53.73 KiB] in 8.334s, last fetched 265h7m34s ago, fc:1 | 2/27/6/89/3593 | http://jsjds.blcu.edu.cn/gsjs1/smjsq.htm 
+21:50:42.176 [main] INFO  a.p.p.c.c.L.Task -  29. 💯 💿 U  got 200 38.91 KiB [💿66.88 KiB] in 8.825s, last fetched 265h7m25s ago, fc:1 | 2/27/9/101/4582 | http://jsjds.blcu.edu.cn/gsjs1/hzjsq.htm 
+21:50:42.232 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：441ms
+21:50:42.810 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/4 | StaticPulsarContext
+21:50:42.816 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000003
+21:50:42.816 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000004
+21:53:34.088 [main] INFO  c.spring.ApplicationTests - Starting ApplicationTests using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 2620 (started by ASUS in D:\workplace\Spring)
+21:53:34.094 [main] INFO  c.spring.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+21:53:38.180 [main] INFO  c.spring.ApplicationTests - Started ApplicationTests in 4.535 seconds (JVM running for 6.281)
+21:53:38.972 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+21:53:38.973 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+21:53:38.975 [main] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+21:53:39.015 [main] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+21:53:39.700 [main] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+21:53:39.746 [main] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+21:53:39.852 [main] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+21:53:39.936 [main] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @1261095698
+21:53:39.947 [main] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+21:53:41.437 [main] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+21:53:41.706 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+21:53:41.858 [main] INFO  a.p.p.c.c.L.Task -   3. 💯 💿 U  got 200 95.88 KiB [💿128.75 KiB] in 9.884s, last fetched 300h3m54s ago, fc:1 | 11/133/16/162/2025 | https://www.luogu.com.cn 
+21:53:41.859 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+21:53:42.301 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：3387ms
+21:53:42.401 [main] INFO  a.p.p.c.c.L.Task -   6. 💯 💿 U  got 200 243.82 KiB <- 267.84 KiB [💿429.84 KiB] in 54.618s, last fetched 385h52s ago, fc:3 | 0/899/267/711/9462 | https://www.codeforces.com/contests 
+21:53:42.659 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.CFcrawl()方法执行耗时：337ms
+21:53:42.684 [main] INFO  a.p.p.c.c.L.Task -   9. 💯 💿 U  got 200 0 <- 15.80 KiB in 8.631s, last fetched 265h22m8s ago, fc:1 | 3/48/18/57/449 | http://jsjds.blcu.edu.cn 
+21:53:42.694 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSOtherscrawl()方法执行耗时：27ms
+21:53:42.790 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.JSJDSContentcrawl()方法执行耗时：20ms

@@ -1,0 +1,1318 @@
+2023-05-23 09:56:31,416 --- [output] - DevTools listening on ws://127.0.0.1:50800/devtools/browser/407f2c8b-9e49-401e-9c92-f2196b8bc608
+2023-05-23 09:56:31,807 --- Connected to ws ws://localhost:50800/devtools/browser/407f2c8b-9e49-401e-9c92-f2196b8bc608
+2023-05-23 09:56:31,807 --- Connected to ws server ws://localhost:50800/devtools/browser/407f2c8b-9e49-401e-9c92-f2196b8bc608
+2023-05-23 09:56:31,813 --- Connected to ws ws://localhost:50800/devtools/page/9B33E26B55966EE77282BEB1E8D26A94
+2023-05-23 09:56:31,813 --- Connected to ws server ws://localhost:50800/devtools/page/9B33E26B55966EE77282BEB1E8D26A94
+2023-05-23 09:56:32,037 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 10:12:44,882 --- [output] - DevTools listening on ws://127.0.0.1:51859/devtools/browser/e897d80b-77cf-43e0-8aa8-dc76afe82fd5
+2023-05-23 10:12:45,248 --- Connected to ws ws://localhost:51859/devtools/browser/e897d80b-77cf-43e0-8aa8-dc76afe82fd5
+2023-05-23 10:12:45,248 --- Connected to ws server ws://localhost:51859/devtools/browser/e897d80b-77cf-43e0-8aa8-dc76afe82fd5
+2023-05-23 10:12:45,255 --- Connected to ws ws://localhost:51859/devtools/page/567B6E0BE4F5077DEDA589FEFAC4673A
+2023-05-23 10:12:45,255 --- Connected to ws server ws://localhost:51859/devtools/page/567B6E0BE4F5077DEDA589FEFAC4673A
+2023-05-23 10:12:45,513 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 10:12:45,554 --- [output] - DevTools listening on ws://127.0.0.1:51865/devtools/browser/174be9e6-da72-42aa-811e-6f048cf3f5e6
+2023-05-23 10:12:45,585 --- Connected to ws ws://localhost:51865/devtools/browser/174be9e6-da72-42aa-811e-6f048cf3f5e6
+2023-05-23 10:12:45,586 --- Connected to ws server ws://localhost:51865/devtools/browser/174be9e6-da72-42aa-811e-6f048cf3f5e6
+2023-05-23 10:12:45,596 --- Connected to ws ws://localhost:51865/devtools/page/D43B0C41885F9461B198E43DEA4DE706
+2023-05-23 10:12:45,596 --- Connected to ws server ws://localhost:51865/devtools/page/D43B0C41885F9461B198E43DEA4DE706
+2023-05-23 11:35:49,860 --- [output] - DevTools listening on ws://127.0.0.1:54903/devtools/browser/d6fb48f3-e580-4b51-945f-b33c51abe323
+2023-05-23 11:35:50,276 --- Connected to ws ws://localhost:54903/devtools/browser/d6fb48f3-e580-4b51-945f-b33c51abe323
+2023-05-23 11:35:50,276 --- Connected to ws server ws://localhost:54903/devtools/browser/d6fb48f3-e580-4b51-945f-b33c51abe323
+2023-05-23 11:35:50,281 --- Connected to ws ws://localhost:54903/devtools/page/BBFF96C1F0DDA2C9AD0FEE0CB6ADEC46
+2023-05-23 11:35:50,281 --- Connected to ws server ws://localhost:54903/devtools/page/BBFF96C1F0DDA2C9AD0FEE0CB6ADEC46
+2023-05-23 11:35:50,491 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 12:01:44,192 --- [output] - DevTools listening on ws://127.0.0.1:49937/devtools/browser/955d87c9-625b-40fd-a7b2-5f900af6525f
+2023-05-23 12:01:44,602 --- Connected to ws ws://localhost:49937/devtools/browser/955d87c9-625b-40fd-a7b2-5f900af6525f
+2023-05-23 12:01:44,602 --- Connected to ws server ws://localhost:49937/devtools/browser/955d87c9-625b-40fd-a7b2-5f900af6525f
+2023-05-23 12:01:44,608 --- Connected to ws ws://localhost:49937/devtools/page/2A99B2503417138770B8685FD2F11161
+2023-05-23 12:01:44,608 --- Connected to ws server ws://localhost:49937/devtools/page/2A99B2503417138770B8685FD2F11161
+2023-05-23 12:01:44,800 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 12:01:47,018 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:48,027 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:49,035 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:50,040 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:51,050 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:52,066 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:53,082 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:54,095 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:55,109 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:56,125 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:56,673 --- Connected to ws ws://localhost:49937/devtools/browser/955d87c9-625b-40fd-a7b2-5f900af6525f
+2023-05-23 12:01:56,673 --- Connected to ws server ws://localhost:49937/devtools/browser/955d87c9-625b-40fd-a7b2-5f900af6525f
+2023-05-23 12:01:56,689 --- Connected to ws ws://localhost:49937/devtools/page/C16CC01B45A9EE67E9FEB98C17FD302C
+2023-05-23 12:01:56,689 --- Connected to ws server ws://localhost:49937/devtools/page/C16CC01B45A9EE67E9FEB98C17FD302C
+2023-05-23 12:01:57,135 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:58,148 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:58,838 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:59,154 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:01:59,842 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:00,162 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:00,851 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:01,170 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:01,858 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:02,178 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:02,866 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:03,186 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:03,873 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:04,193 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:04,880 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:05,200 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:05,889 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:06,210 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:06,900 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:07,220 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:07,910 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:08,230 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:08,921 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:09,238 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:09,932 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:10,254 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:10,946 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:11,260 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:11,953 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:12,272 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:12,963 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:13,285 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:13,973 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:14,296 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:14,989 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:15,310 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:15,997 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:16,320 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:17,008 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:17,326 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:18,018 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:18,340 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:19,030 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:19,350 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:20,038 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:20,361 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:21,051 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:21,371 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:22,061 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:22,382 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:23,073 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:23,396 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:24,086 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:24,409 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:25,097 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:25,415 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:26,106 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:26,427 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:27,118 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:27,443 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:28,130 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:28,453 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:29,143 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:29,462 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:30,152 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:30,474 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:31,161 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:31,480 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:32,169 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:32,492 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:33,186 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:33,508 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:34,192 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:34,525 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:35,201 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:35,540 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:36,209 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:36,547 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:37,223 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:37,561 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:38,238 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:38,576 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:39,246 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:39,584 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:40,257 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:40,591 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:41,274 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:41,594 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:42,286 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:42,605 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:43,296 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:43,615 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:44,306 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:44,631 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:45,323 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:45,642 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:46,334 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:46,654 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:47,343 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:48,360 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:49,372 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:50,388 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:51,394 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:52,407 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:53,418 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:54,431 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:55,436 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:56,445 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:57,454 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:02:58,461 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at eaioGJutils__.checkStatus (<anonymous>:153:85)
+    at eaioGJutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 12:04:27,315 --- [output] - DevTools listening on ws://127.0.0.1:50701/devtools/browser/dbeabf4c-ef2f-43ba-8ad3-5f2484ca1558
+2023-05-23 12:04:27,341 --- Connected to ws ws://localhost:50701/devtools/browser/dbeabf4c-ef2f-43ba-8ad3-5f2484ca1558
+2023-05-23 12:04:27,341 --- Connected to ws server ws://localhost:50701/devtools/browser/dbeabf4c-ef2f-43ba-8ad3-5f2484ca1558
+2023-05-23 12:04:27,348 --- Connected to ws ws://localhost:50701/devtools/page/554298B209E1DD1B8DF390C019F2A018
+2023-05-23 12:04:27,348 --- Connected to ws server ws://localhost:50701/devtools/page/554298B209E1DD1B8DF390C019F2A018
+2023-05-23 12:20:30,307 --- [output] - DevTools listening on ws://127.0.0.1:51826/devtools/browser/2ebfe272-551e-4289-971d-eaf4af881db2
+2023-05-23 12:20:30,640 --- Connected to ws ws://localhost:51826/devtools/browser/2ebfe272-551e-4289-971d-eaf4af881db2
+2023-05-23 12:20:30,640 --- Connected to ws server ws://localhost:51826/devtools/browser/2ebfe272-551e-4289-971d-eaf4af881db2
+2023-05-23 12:20:30,646 --- Connected to ws ws://localhost:51826/devtools/page/2E5323828AB1F4314F7FCE71321D5C69
+2023-05-23 12:20:30,646 --- Connected to ws server ws://localhost:51826/devtools/page/2E5323828AB1F4314F7FCE71321D5C69
+2023-05-23 12:20:30,818 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 12:21:43,891 --- [output] - DevTools listening on ws://127.0.0.1:51994/devtools/browser/fec9cfb0-b4ee-4ea4-acf0-cf877f3dc083
+2023-05-23 12:21:43,915 --- Connected to ws ws://localhost:51994/devtools/browser/fec9cfb0-b4ee-4ea4-acf0-cf877f3dc083
+2023-05-23 12:21:43,915 --- Connected to ws server ws://localhost:51994/devtools/browser/fec9cfb0-b4ee-4ea4-acf0-cf877f3dc083
+2023-05-23 12:21:43,921 --- Connected to ws ws://localhost:51994/devtools/page/F8CBFF8E7383E88B8AAE5E6385A6FBE9
+2023-05-23 12:21:43,921 --- Connected to ws server ws://localhost:51994/devtools/page/F8CBFF8E7383E88B8AAE5E6385A6FBE9
+2023-05-23 16:54:47,951 --- [output] - DevTools listening on ws://127.0.0.1:49701/devtools/browser/d6e9138f-299f-4c15-918f-18dc2d132cf9
+2023-05-23 16:55:10,052 --- [output] - DevTools listening on ws://127.0.0.1:49706/devtools/browser/7970b0fa-2d3d-41d0-8b78-9b37f952c319
+2023-05-23 16:56:30,223 --- [output] - DevTools listening on ws://127.0.0.1:49716/devtools/browser/681dc448-3a89-466f-9493-56f40e237162
+2023-05-23 17:17:00,967 --- [output] - DevTools listening on ws://127.0.0.1:50492/devtools/browser/92ab00c9-6f49-4db8-9918-ac874eb628ac
+2023-05-23 17:19:57,829 --- [output] - DevTools listening on ws://127.0.0.1:50634/devtools/browser/49de46a4-3395-4407-bfdd-ea7303c57f83
+2023-05-23 17:59:57,099 --- [output] - DevTools listening on ws://127.0.0.1:49821/devtools/browser/c0932e98-3c71-4256-a3d1-ec8e4bf5f1b7
+2023-05-23 18:05:16,615 --- [output] - DevTools listening on ws://127.0.0.1:50105/devtools/browser/febff1d8-6785-4758-8be1-e0722f46ba9c
+2023-05-23 18:14:48,711 --- [output] - DevTools listening on ws://127.0.0.1:50571/devtools/browser/824dc951-0e81-496e-99e4-2457cb4f32b7
+2023-05-23 18:14:49,063 --- Connected to ws ws://localhost:50571/devtools/browser/824dc951-0e81-496e-99e4-2457cb4f32b7
+2023-05-23 18:14:49,063 --- Connected to ws server ws://localhost:50571/devtools/browser/824dc951-0e81-496e-99e4-2457cb4f32b7
+2023-05-23 18:14:49,068 --- Connected to ws ws://localhost:50571/devtools/page/F97282C57891066F9F22A1283C0987A0
+2023-05-23 18:14:49,068 --- Connected to ws server ws://localhost:50571/devtools/page/F97282C57891066F9F22A1283C0987A0
+2023-05-23 18:14:49,270 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 18:15:34,560 --- [output] - DevTools listening on ws://127.0.0.1:50613/devtools/browser/0c88e02f-e64e-4329-88f0-f59ce01631ac
+2023-05-23 18:15:34,891 --- Connected to ws ws://localhost:50613/devtools/browser/0c88e02f-e64e-4329-88f0-f59ce01631ac
+2023-05-23 18:15:34,891 --- Connected to ws server ws://localhost:50613/devtools/browser/0c88e02f-e64e-4329-88f0-f59ce01631ac
+2023-05-23 18:15:34,897 --- Connected to ws ws://localhost:50613/devtools/page/F1C8F4073297532902C29F196BE2CD8E
+2023-05-23 18:15:34,897 --- Connected to ws server ws://localhost:50613/devtools/page/F1C8F4073297532902C29F196BE2CD8E
+2023-05-23 18:15:35,094 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 18:16:49,434 --- [output] - DevTools listening on ws://127.0.0.1:50650/devtools/browser/0d84e5b6-b96e-4e08-885a-b896d35b7f12
+2023-05-23 18:16:49,781 --- Connected to ws ws://localhost:50650/devtools/browser/0d84e5b6-b96e-4e08-885a-b896d35b7f12
+2023-05-23 18:16:49,781 --- Connected to ws server ws://localhost:50650/devtools/browser/0d84e5b6-b96e-4e08-885a-b896d35b7f12
+2023-05-23 18:16:49,786 --- Connected to ws ws://localhost:50650/devtools/page/34D162704B21070B7CB42A4360ABC601
+2023-05-23 18:16:49,787 --- Connected to ws server ws://localhost:50650/devtools/page/34D162704B21070B7CB42A4360ABC601
+2023-05-23 18:16:49,997 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 18:22:08,417 --- [output] - DevTools listening on ws://127.0.0.1:50887/devtools/browser/7edea921-04af-4a04-83f6-0071e7ece3bb
+2023-05-23 18:22:08,756 --- Connected to ws ws://localhost:50887/devtools/browser/7edea921-04af-4a04-83f6-0071e7ece3bb
+2023-05-23 18:22:08,756 --- Connected to ws server ws://localhost:50887/devtools/browser/7edea921-04af-4a04-83f6-0071e7ece3bb
+2023-05-23 18:22:08,761 --- Connected to ws ws://localhost:50887/devtools/page/79AF5CA7DD3A467A75D067A5473862BF
+2023-05-23 18:22:08,761 --- Connected to ws server ws://localhost:50887/devtools/page/79AF5CA7DD3A467A75D067A5473862BF
+2023-05-23 18:22:08,965 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 18:52:14,133 --- [output] - DevTools listening on ws://127.0.0.1:51889/devtools/browser/0aa77735-dff6-4b10-8a6b-6c89a15dc98e
+2023-05-23 18:52:14,687 --- Connected to ws ws://localhost:51889/devtools/browser/0aa77735-dff6-4b10-8a6b-6c89a15dc98e
+2023-05-23 18:52:14,687 --- Connected to ws server ws://localhost:51889/devtools/browser/0aa77735-dff6-4b10-8a6b-6c89a15dc98e
+2023-05-23 18:52:14,696 --- Connected to ws ws://localhost:51889/devtools/page/293824F44B9E49A5337141C8C85903DA
+2023-05-23 18:52:14,697 --- Connected to ws server ws://localhost:51889/devtools/page/293824F44B9E49A5337141C8C85903DA
+2023-05-23 18:52:14,961 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 19:08:03,514 --- [output] - DevTools listening on ws://127.0.0.1:53272/devtools/browser/a9d1191c-1c9e-47a2-ac09-154fd5080759
+2023-05-23 19:08:03,955 --- Connected to ws ws://localhost:53272/devtools/browser/a9d1191c-1c9e-47a2-ac09-154fd5080759
+2023-05-23 19:08:03,955 --- Connected to ws server ws://localhost:53272/devtools/browser/a9d1191c-1c9e-47a2-ac09-154fd5080759
+2023-05-23 19:08:03,960 --- Connected to ws ws://localhost:53272/devtools/page/ED3BDC73B97C128CCCD19CA7603D9A15
+2023-05-23 19:08:03,960 --- Connected to ws server ws://localhost:53272/devtools/page/ED3BDC73B97C128CCCD19CA7603D9A15
+2023-05-23 19:08:04,164 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 19:09:04,721 --- Received response with unknown invocation #6 - 
+2023-05-23 19:09:20,646 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at FUfFaHutils__.checkStatus (<anonymous>:153:85)
+    at FUfFaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 19:09:21,668 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at FUfFaHutils__.checkStatus (<anonymous>:153:85)
+    at FUfFaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-23 19:09:34,572 --- [output] - DevTools listening on ws://127.0.0.1:53326/devtools/browser/12a9c5ab-94a9-4253-a06f-b2da101206f4
+2023-05-23 19:09:34,965 --- Connected to ws ws://localhost:53326/devtools/browser/12a9c5ab-94a9-4253-a06f-b2da101206f4
+2023-05-23 19:09:34,965 --- Connected to ws server ws://localhost:53326/devtools/browser/12a9c5ab-94a9-4253-a06f-b2da101206f4
+2023-05-23 19:09:34,971 --- Connected to ws ws://localhost:53326/devtools/page/8807E9660D8368400CD851D0D440E493
+2023-05-23 19:09:34,971 --- Connected to ws server ws://localhost:53326/devtools/page/8807E9660D8368400CD851D0D440E493
+2023-05-23 19:09:35,154 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 19:15:04,617 --- [output] - DevTools listening on ws://127.0.0.1:53539/devtools/browser/4a8a47c3-38d7-40d9-9295-d490a0e3e01b
+2023-05-23 19:15:04,930 --- Connected to ws ws://localhost:53539/devtools/browser/4a8a47c3-38d7-40d9-9295-d490a0e3e01b
+2023-05-23 19:15:04,930 --- Connected to ws server ws://localhost:53539/devtools/browser/4a8a47c3-38d7-40d9-9295-d490a0e3e01b
+2023-05-23 19:15:04,935 --- Connected to ws ws://localhost:53539/devtools/page/4E54BAF4BD94A8E8F1C38CE453CAA304
+2023-05-23 19:15:04,935 --- Connected to ws server ws://localhost:53539/devtools/page/4E54BAF4BD94A8E8F1C38CE453CAA304
+2023-05-23 19:15:05,132 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 19:17:40,156 --- [output] - DevTools listening on ws://127.0.0.1:53614/devtools/browser/05f04695-66ce-4afe-ba65-b00345f630d9
+2023-05-23 19:17:40,542 --- Connected to ws ws://localhost:53614/devtools/browser/05f04695-66ce-4afe-ba65-b00345f630d9
+2023-05-23 19:17:40,542 --- Connected to ws server ws://localhost:53614/devtools/browser/05f04695-66ce-4afe-ba65-b00345f630d9
+2023-05-23 19:17:40,548 --- Connected to ws ws://localhost:53614/devtools/page/20F76EFB3E7BAE26E75AB6A84CDDB72A
+2023-05-23 19:17:40,549 --- Connected to ws server ws://localhost:53614/devtools/page/20F76EFB3E7BAE26E75AB6A84CDDB72A
+2023-05-23 19:17:40,803 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 19:57:59,849 --- [output] - DevTools listening on ws://127.0.0.1:54988/devtools/browser/c666536c-b3f6-4a86-a6b0-bee3eb7cd68b
+2023-05-23 19:58:00,492 --- Connected to ws ws://localhost:54988/devtools/browser/c666536c-b3f6-4a86-a6b0-bee3eb7cd68b
+2023-05-23 19:58:00,492 --- Connected to ws server ws://localhost:54988/devtools/browser/c666536c-b3f6-4a86-a6b0-bee3eb7cd68b
+2023-05-23 19:58:00,509 --- Connected to ws ws://localhost:54988/devtools/page/62CB50BBA2C5C50A5A2D8F69992CCB90
+2023-05-23 19:58:00,509 --- Connected to ws server ws://localhost:54988/devtools/page/62CB50BBA2C5C50A5A2D8F69992CCB90
+2023-05-23 19:58:00,894 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 19:59:55,767 --- [output] - DevTools listening on ws://127.0.0.1:55175/devtools/browser/b543b9c4-f284-4d2c-8848-394887fee0cb
+2023-05-23 19:59:56,127 --- Connected to ws ws://localhost:55175/devtools/browser/b543b9c4-f284-4d2c-8848-394887fee0cb
+2023-05-23 19:59:56,127 --- Connected to ws server ws://localhost:55175/devtools/browser/b543b9c4-f284-4d2c-8848-394887fee0cb
+2023-05-23 19:59:56,133 --- Connected to ws ws://localhost:55175/devtools/page/08E66C7A8E80C8B8E1E205340781156C
+2023-05-23 19:59:56,133 --- Connected to ws server ws://localhost:55175/devtools/page/08E66C7A8E80C8B8E1E205340781156C
+2023-05-23 19:59:56,342 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 20:06:43,480 --- [output] - DevTools listening on ws://127.0.0.1:55554/devtools/browser/c8c7c026-c49d-453d-aa5c-08bdd4df66e4
+2023-05-23 20:06:43,877 --- Connected to ws ws://localhost:55554/devtools/browser/c8c7c026-c49d-453d-aa5c-08bdd4df66e4
+2023-05-23 20:06:43,877 --- Connected to ws server ws://localhost:55554/devtools/browser/c8c7c026-c49d-453d-aa5c-08bdd4df66e4
+2023-05-23 20:06:43,882 --- Connected to ws ws://localhost:55554/devtools/page/6288D86BFCD9885DA537647D1D5A051A
+2023-05-23 20:06:43,882 --- Connected to ws server ws://localhost:55554/devtools/page/6288D86BFCD9885DA537647D1D5A051A
+2023-05-23 20:06:44,194 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 20:09:14,470 --- [output] - DevTools listening on ws://127.0.0.1:55587/devtools/browser/c7e6039a-90a1-4686-a007-bcda0fdf0d20
+2023-05-23 20:09:14,791 --- Connected to ws ws://localhost:55587/devtools/browser/c7e6039a-90a1-4686-a007-bcda0fdf0d20
+2023-05-23 20:09:14,791 --- Connected to ws server ws://localhost:55587/devtools/browser/c7e6039a-90a1-4686-a007-bcda0fdf0d20
+2023-05-23 20:09:14,795 --- Connected to ws ws://localhost:55587/devtools/page/847FF38D4B05566E45181DFEE17D6B3E
+2023-05-23 20:09:14,796 --- Connected to ws server ws://localhost:55587/devtools/page/847FF38D4B05566E45181DFEE17D6B3E
+2023-05-23 20:09:14,968 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 20:11:01,002 --- [output] - DevTools listening on ws://127.0.0.1:55619/devtools/browser/b64b22f3-47b0-4c0a-9fbb-6e18725bfbd2
+2023-05-23 20:11:01,342 --- Connected to ws ws://localhost:55619/devtools/browser/b64b22f3-47b0-4c0a-9fbb-6e18725bfbd2
+2023-05-23 20:11:01,342 --- Connected to ws server ws://localhost:55619/devtools/browser/b64b22f3-47b0-4c0a-9fbb-6e18725bfbd2
+2023-05-23 20:11:01,347 --- Connected to ws ws://localhost:55619/devtools/page/3D09FD20C80602F971F9EAD28FEA467C
+2023-05-23 20:11:01,347 --- Connected to ws server ws://localhost:55619/devtools/page/3D09FD20C80602F971F9EAD28FEA467C
+2023-05-23 20:11:01,532 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 20:23:24,313 --- [output] - DevTools listening on ws://127.0.0.1:56029/devtools/browser/1f10a16d-ac03-476c-82c3-e24b89a1b63a
+2023-05-23 20:23:24,691 --- Connected to ws ws://localhost:56029/devtools/browser/1f10a16d-ac03-476c-82c3-e24b89a1b63a
+2023-05-23 20:23:24,692 --- Connected to ws server ws://localhost:56029/devtools/browser/1f10a16d-ac03-476c-82c3-e24b89a1b63a
+2023-05-23 20:23:24,697 --- Connected to ws ws://localhost:56029/devtools/page/2F64779649FE8436A1B7268138DE9809
+2023-05-23 20:23:24,697 --- Connected to ws server ws://localhost:56029/devtools/page/2F64779649FE8436A1B7268138DE9809
+2023-05-23 20:23:24,902 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 20:23:24,954 --- [output] - DevTools listening on ws://127.0.0.1:56034/devtools/browser/c72e3784-4781-4842-b348-ab695ea93ca0
+2023-05-23 20:23:24,983 --- Connected to ws ws://localhost:56034/devtools/browser/c72e3784-4781-4842-b348-ab695ea93ca0
+2023-05-23 20:23:24,983 --- Connected to ws server ws://localhost:56034/devtools/browser/c72e3784-4781-4842-b348-ab695ea93ca0
+2023-05-23 20:23:24,993 --- Connected to ws ws://localhost:56034/devtools/page/D3EA8344B481C3065E6930015B58C608
+2023-05-23 20:23:24,993 --- Connected to ws server ws://localhost:56034/devtools/page/D3EA8344B481C3065E6930015B58C608
+2023-05-23 20:23:28,962 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-23 20:23:28,962 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-23 20:23:28,962 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-23 20:23:28,962 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-23 20:23:28,963 --- Closing ws server ws://localhost:56029/devtools/page/2F64779649FE8436A1B7268138DE9809
+2023-05-23 20:23:28,963 --- Closing ws server ws://localhost:56034/devtools/browser/c72e3784-4781-4842-b348-ab695ea93ca0
+2023-05-23 20:23:28,963 --- Closing ws server ws://localhost:56034/devtools/page/D3EA8344B481C3065E6930015B58C608
+2023-05-23 20:23:28,963 --- Closing ws server ws://localhost:56029/devtools/browser/1f10a16d-ac03-476c-82c3-e24b89a1b63a
+2023-05-23 20:27:54,691 --- [output] - DevTools listening on ws://127.0.0.1:56280/devtools/browser/d4efe890-b402-43f0-b20f-69c1c85c24a6
+2023-05-23 20:27:55,093 --- Connected to ws ws://localhost:56280/devtools/browser/d4efe890-b402-43f0-b20f-69c1c85c24a6
+2023-05-23 20:27:55,093 --- Connected to ws server ws://localhost:56280/devtools/browser/d4efe890-b402-43f0-b20f-69c1c85c24a6
+2023-05-23 20:27:55,098 --- Connected to ws ws://localhost:56280/devtools/page/29282268AACE54ECBBDDD5930E5E2210
+2023-05-23 20:27:55,098 --- Connected to ws server ws://localhost:56280/devtools/page/29282268AACE54ECBBDDD5930E5E2210
+2023-05-23 20:27:55,297 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-23 20:27:55,349 --- [output] - DevTools listening on ws://127.0.0.1:56284/devtools/browser/ec0d6156-2381-4d07-97ee-982d42342b9f
+2023-05-23 20:27:55,395 --- Connected to ws ws://localhost:56284/devtools/browser/ec0d6156-2381-4d07-97ee-982d42342b9f
+2023-05-23 20:27:55,395 --- Connected to ws server ws://localhost:56284/devtools/browser/ec0d6156-2381-4d07-97ee-982d42342b9f
+2023-05-23 20:27:55,418 --- Connected to ws ws://localhost:56284/devtools/page/5D440F2D53CE159316DBC515007D3B59
+2023-05-23 20:27:55,420 --- Connected to ws server ws://localhost:56284/devtools/page/5D440F2D53CE159316DBC515007D3B59
+2023-05-24 09:59:26,322 --- [output] - DevTools listening on ws://127.0.0.1:49745/devtools/browser/a17ea458-bba1-4440-88e8-e88fc2e2ec82
+2023-05-24 09:59:26,694 --- Connected to ws ws://localhost:49745/devtools/browser/a17ea458-bba1-4440-88e8-e88fc2e2ec82
+2023-05-24 09:59:26,694 --- Connected to ws server ws://localhost:49745/devtools/browser/a17ea458-bba1-4440-88e8-e88fc2e2ec82
+2023-05-24 09:59:26,700 --- Connected to ws ws://localhost:49745/devtools/page/977AA9D36B81E8CE9A0D21C22BE9DDCD
+2023-05-24 09:59:26,700 --- Connected to ws server ws://localhost:49745/devtools/page/977AA9D36B81E8CE9A0D21C22BE9DDCD
+2023-05-24 09:59:26,935 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-24 09:59:29,196 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:30,207 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:31,214 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:32,227 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:33,235 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:34,242 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:35,250 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:36,258 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:37,271 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:38,277 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:39,286 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:40,299 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:41,311 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:42,323 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:43,334 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:44,340 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:45,348 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:46,355 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:47,363 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:48,370 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:49,377 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:50,382 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:51,386 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:52,400 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:53,415 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:54,430 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:55,439 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:56,453 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:57,461 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:58,472 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 09:59:59,490 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:00,495 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:01,507 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:02,520 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:03,531 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:04,552 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:05,563 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:06,570 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:07,586 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:08,598 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:09,604 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:10,609 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:11,622 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:12,633 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:13,647 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:14,660 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:15,669 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:16,674 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:17,679 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:18,691 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:19,702 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:20,711 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:21,718 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:22,737 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:23,750 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:24,761 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:25,773 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:26,780 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:27,795 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:00:28,803 --- TypeError: Cannot read properties of null (reading 'textContent')
+    at IjfsaHutils__.checkStatus (<anonymous>:153:85)
+    at IjfsaHutils__.waitForReady (<anonymous>:127:17)
+    at <anonymous>:1:15
+>>>__pulsar_utils__.waitForReady(5)<<<
+2023-05-24 10:01:52,157 --- [output] - DevTools listening on ws://127.0.0.1:50060/devtools/browser/92766415-a445-4e5f-8c42-fd6e86c05852
+2023-05-24 10:01:52,492 --- Connected to ws ws://localhost:50060/devtools/browser/92766415-a445-4e5f-8c42-fd6e86c05852
+2023-05-24 10:01:52,492 --- Connected to ws server ws://localhost:50060/devtools/browser/92766415-a445-4e5f-8c42-fd6e86c05852
+2023-05-24 10:01:52,499 --- Connected to ws ws://localhost:50060/devtools/page/8157E8A10AF7FC9BA94C9B1E2A37EA68
+2023-05-24 10:01:52,499 --- Connected to ws server ws://localhost:50060/devtools/page/8157E8A10AF7FC9BA94C9B1E2A37EA68
+2023-05-24 10:01:52,706 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-24 10:02:27,472 --- [output] - DevTools listening on ws://127.0.0.1:50129/devtools/browser/a44ec836-eff5-4011-b415-d289339a7cc6
+2023-05-24 10:02:27,796 --- Connected to ws ws://localhost:50129/devtools/browser/a44ec836-eff5-4011-b415-d289339a7cc6
+2023-05-24 10:02:27,796 --- Connected to ws server ws://localhost:50129/devtools/browser/a44ec836-eff5-4011-b415-d289339a7cc6
+2023-05-24 10:02:27,801 --- Connected to ws ws://localhost:50129/devtools/page/46DA20FAA8F9FBC7C55DB6EFC5769F7A
+2023-05-24 10:02:27,801 --- Connected to ws server ws://localhost:50129/devtools/page/46DA20FAA8F9FBC7C55DB6EFC5769F7A
+2023-05-24 10:02:28,014 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-24 10:07:47,853 --- [output] - DevTools listening on ws://127.0.0.1:50548/devtools/browser/690bb1c3-ae3f-4ef6-a9bf-e6ea1e19ece9
+2023-05-24 10:07:49,659 --- Connected to ws ws://localhost:50548/devtools/browser/690bb1c3-ae3f-4ef6-a9bf-e6ea1e19ece9
+2023-05-24 10:07:49,659 --- Connected to ws server ws://localhost:50548/devtools/browser/690bb1c3-ae3f-4ef6-a9bf-e6ea1e19ece9
+2023-05-24 10:07:49,672 --- Connected to ws ws://localhost:50548/devtools/page/3857DD85BA1AD141053C3A604EC9EE3E
+2023-05-24 10:07:49,672 --- Connected to ws server ws://localhost:50548/devtools/page/3857DD85BA1AD141053C3A604EC9EE3E
+2023-05-24 10:07:51,175 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-24 10:09:46,832 --- [output] - DevTools listening on ws://127.0.0.1:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:09:47,170 --- Connected to ws ws://localhost:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:09:47,170 --- Connected to ws server ws://localhost:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:09:47,177 --- Connected to ws ws://localhost:50658/devtools/page/1CB87C98AE759D71704FEAA4D95D4959
+2023-05-24 10:09:47,177 --- Connected to ws server ws://localhost:50658/devtools/page/1CB87C98AE759D71704FEAA4D95D4959
+2023-05-24 10:09:47,419 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-24 10:09:56,042 --- Connected to ws ws://localhost:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:09:56,042 --- Connected to ws server ws://localhost:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:09:56,048 --- Connected to ws ws://localhost:50658/devtools/page/F17EE36E6761BB90B79BABA154BD0627
+2023-05-24 10:09:56,048 --- Connected to ws server ws://localhost:50658/devtools/page/F17EE36E6761BB90B79BABA154BD0627
+2023-05-24 10:10:05,204 --- [output] - DevTools listening on ws://127.0.0.1:50699/devtools/browser/c0b76064-5fb2-44a1-8f04-4b415a79146a
+2023-05-24 10:10:05,232 --- Connected to ws ws://localhost:50699/devtools/browser/c0b76064-5fb2-44a1-8f04-4b415a79146a
+2023-05-24 10:10:05,232 --- Connected to ws server ws://localhost:50699/devtools/browser/c0b76064-5fb2-44a1-8f04-4b415a79146a
+2023-05-24 10:10:05,240 --- Connected to ws ws://localhost:50699/devtools/page/97975B7FF5371C86AEAF7EDE690355C6
+2023-05-24 10:10:05,240 --- Connected to ws server ws://localhost:50699/devtools/page/97975B7FF5371C86AEAF7EDE690355C6
+2023-05-24 10:10:13,262 --- Connected to ws ws://localhost:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:10:13,263 --- Connected to ws server ws://localhost:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:10:13,268 --- Connected to ws ws://localhost:50658/devtools/page/94298A5133D13887600556658A4E824C
+2023-05-24 10:10:13,268 --- Connected to ws server ws://localhost:50658/devtools/page/94298A5133D13887600556658A4E824C
+2023-05-24 10:10:21,737 --- Connected to ws ws://localhost:50699/devtools/browser/c0b76064-5fb2-44a1-8f04-4b415a79146a
+2023-05-24 10:10:21,737 --- Connected to ws server ws://localhost:50699/devtools/browser/c0b76064-5fb2-44a1-8f04-4b415a79146a
+2023-05-24 10:10:21,742 --- Connected to ws ws://localhost:50699/devtools/page/A6C59B304A08DDA121A6FB60B4522CC4
+2023-05-24 10:10:21,742 --- Connected to ws server ws://localhost:50699/devtools/page/A6C59B304A08DDA121A6FB60B4522CC4
+2023-05-24 10:10:29,649 --- Connected to ws ws://localhost:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:10:29,649 --- Connected to ws server ws://localhost:50658/devtools/browser/2953df18-663d-43aa-ae89-8d404b7c5b95
+2023-05-24 10:10:29,653 --- Connected to ws ws://localhost:50658/devtools/page/336CC165E4F1A20B82B15EE3B5FD4BFA
+2023-05-24 10:10:29,653 --- Connected to ws server ws://localhost:50658/devtools/page/336CC165E4F1A20B82B15EE3B5FD4BFA
+2023-05-24 10:10:39,267 --- Connected to ws ws://localhost:50699/devtools/browser/c0b76064-5fb2-44a1-8f04-4b415a79146a
+2023-05-24 10:10:39,267 --- Connected to ws server ws://localhost:50699/devtools/browser/c0b76064-5fb2-44a1-8f04-4b415a79146a
+2023-05-24 10:10:39,273 --- Connected to ws ws://localhost:50699/devtools/page/391E3A0E232D9400E2A47BDE5F0832D1
+2023-05-24 10:10:39,273 --- Connected to ws server ws://localhost:50699/devtools/page/391E3A0E232D9400E2A47BDE5F0832D1
+2023-05-24 11:04:40,188 --- [output] - DevTools listening on ws://127.0.0.1:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:04:40,525 --- Connected to ws ws://localhost:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:04:40,525 --- Connected to ws server ws://localhost:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:04:40,530 --- Connected to ws ws://localhost:53820/devtools/page/F3A29BD389E62C48882C5168922308E1
+2023-05-24 11:04:40,530 --- Connected to ws server ws://localhost:53820/devtools/page/F3A29BD389E62C48882C5168922308E1
+2023-05-24 11:04:40,771 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-24 11:04:50,341 --- Connected to ws ws://localhost:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:04:50,341 --- Connected to ws server ws://localhost:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:04:50,345 --- Connected to ws ws://localhost:53820/devtools/page/F52B873BB59D24E2B6A753A6E26A6BAC
+2023-05-24 11:04:50,345 --- Connected to ws server ws://localhost:53820/devtools/page/F52B873BB59D24E2B6A753A6E26A6BAC
+2023-05-24 11:04:58,906 --- [output] - DevTools listening on ws://127.0.0.1:53835/devtools/browser/9c080ceb-2685-42f2-a16b-5783bc028f4c
+2023-05-24 11:04:58,922 --- Connected to ws ws://localhost:53835/devtools/browser/9c080ceb-2685-42f2-a16b-5783bc028f4c
+2023-05-24 11:04:58,922 --- Connected to ws server ws://localhost:53835/devtools/browser/9c080ceb-2685-42f2-a16b-5783bc028f4c
+2023-05-24 11:04:58,937 --- Connected to ws ws://localhost:53835/devtools/page/D98A389C694C1898525D38DC69999CD4
+2023-05-24 11:04:58,937 --- Connected to ws server ws://localhost:53835/devtools/page/D98A389C694C1898525D38DC69999CD4
+2023-05-24 11:05:08,016 --- Connected to ws ws://localhost:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:05:08,016 --- Connected to ws server ws://localhost:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:05:08,021 --- Connected to ws ws://localhost:53820/devtools/page/C8A0A8090B171E9DA0269A7BB28AC592
+2023-05-24 11:05:08,021 --- Connected to ws server ws://localhost:53820/devtools/page/C8A0A8090B171E9DA0269A7BB28AC592
+2023-05-24 11:05:17,002 --- Connected to ws ws://localhost:53835/devtools/browser/9c080ceb-2685-42f2-a16b-5783bc028f4c
+2023-05-24 11:05:17,002 --- Connected to ws server ws://localhost:53835/devtools/browser/9c080ceb-2685-42f2-a16b-5783bc028f4c
+2023-05-24 11:05:17,007 --- Connected to ws ws://localhost:53835/devtools/page/D8139B893BD91F884BE10BE574B8C7D8
+2023-05-24 11:05:17,008 --- Connected to ws server ws://localhost:53835/devtools/page/D8139B893BD91F884BE10BE574B8C7D8
+2023-05-24 11:05:26,051 --- Connected to ws ws://localhost:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:05:26,052 --- Connected to ws server ws://localhost:53820/devtools/browser/48bfd0bd-9b7c-4726-98e7-f19327abc0e5
+2023-05-24 11:05:26,057 --- Connected to ws ws://localhost:53820/devtools/page/7D601226D99CE1BADEF75FCE5191FFE2
+2023-05-24 11:05:26,057 --- Connected to ws server ws://localhost:53820/devtools/page/7D601226D99CE1BADEF75FCE5191FFE2
+2023-05-24 11:05:34,947 --- Connected to ws ws://localhost:53835/devtools/browser/9c080ceb-2685-42f2-a16b-5783bc028f4c
+2023-05-24 11:05:34,947 --- Connected to ws server ws://localhost:53835/devtools/browser/9c080ceb-2685-42f2-a16b-5783bc028f4c
+2023-05-24 11:05:34,952 --- Connected to ws ws://localhost:53835/devtools/page/9CD3141611E2C29D2E9BC254BDE12103
+2023-05-24 11:05:34,952 --- Connected to ws server ws://localhost:53835/devtools/page/9CD3141611E2C29D2E9BC254BDE12103
+2023-05-25 14:51:18,065 --- [output] - DevTools listening on ws://127.0.0.1:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:18,427 --- Connected to ws ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:18,427 --- Connected to ws server ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:18,433 --- Connected to ws ws://localhost:51649/devtools/page/91CA48F435BAD349FD22A27973834EC9
+2023-05-25 14:51:18,433 --- Connected to ws server ws://localhost:51649/devtools/page/91CA48F435BAD349FD22A27973834EC9
+2023-05-25 14:51:18,672 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-25 14:51:18,759 --- [output] - DevTools listening on ws://127.0.0.1:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:18,847 --- Connected to ws ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:18,847 --- Connected to ws server ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:18,881 --- Connected to ws ws://localhost:51654/devtools/page/C1E198B424C80204E8683D70F395B8AF
+2023-05-25 14:51:18,881 --- Connected to ws server ws://localhost:51654/devtools/page/C1E198B424C80204E8683D70F395B8AF
+2023-05-25 14:51:18,957 --- Connected to ws ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:18,957 --- Connected to ws server ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:18,969 --- Connected to ws ws://localhost:51649/devtools/page/FF465F346BF0EFA635ED4C920C06B0A1
+2023-05-25 14:51:18,969 --- Connected to ws server ws://localhost:51649/devtools/page/FF465F346BF0EFA635ED4C920C06B0A1
+2023-05-25 14:51:18,987 --- Connected to ws ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:18,987 --- Connected to ws server ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:18,994 --- Connected to ws ws://localhost:51654/devtools/page/C7B690FC8A3F21FFEDBF3295271D8B2D
+2023-05-25 14:51:18,994 --- Connected to ws server ws://localhost:51654/devtools/page/C7B690FC8A3F21FFEDBF3295271D8B2D
+2023-05-25 14:51:19,509 --- Connected to ws ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:19,509 --- Connected to ws server ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:19,518 --- Connected to ws ws://localhost:51654/devtools/page/19B317B13C56513B298DC72BFBCE1882
+2023-05-25 14:51:19,518 --- Connected to ws server ws://localhost:51654/devtools/page/19B317B13C56513B298DC72BFBCE1882
+2023-05-25 14:51:19,549 --- Connected to ws ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:19,549 --- Connected to ws server ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:19,579 --- Connected to ws ws://localhost:51649/devtools/page/3BEB24C24FECEF30F32ADCE66D52FD78
+2023-05-25 14:51:19,579 --- Connected to ws server ws://localhost:51649/devtools/page/3BEB24C24FECEF30F32ADCE66D52FD78
+2023-05-25 14:51:56,425 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,426 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,426 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,425 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,426 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,426 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,426 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,426 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,427 --- Closing ws server ws://localhost:51654/devtools/page/C1E198B424C80204E8683D70F395B8AF
+2023-05-25 14:51:56,427 --- Closing ws server ws://localhost:51649/devtools/page/3BEB24C24FECEF30F32ADCE66D52FD78
+2023-05-25 14:51:56,427 --- Closing ws server ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:56,427 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,427 --- Closing ws server ws://localhost:51654/devtools/page/C7B690FC8A3F21FFEDBF3295271D8B2D
+2023-05-25 14:51:56,428 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,428 --- Closing ws server ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:56,428 --- Closing ws server ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:56,428 --- Closing ws server ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:56,429 --- Closing ws server ws://localhost:51649/devtools/page/FF465F346BF0EFA635ED4C920C06B0A1
+2023-05-25 14:51:56,429 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,429 --- Closing ws server ws://localhost:51654/devtools/browser/af41b5dd-e7cd-464e-8861-639de8e0fc86
+2023-05-25 14:51:56,429 --- Closing ws server ws://localhost:51649/devtools/page/91CA48F435BAD349FD22A27973834EC9
+2023-05-25 14:51:56,429 --- Closing ws server ws://localhost:51649/devtools/browser/38e54b12-dc7b-4700-8241-a116cd36e0fd
+2023-05-25 14:51:56,432 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-05-25 14:51:56,432 --- Closing ws server ws://localhost:51654/devtools/page/19B317B13C56513B298DC72BFBCE1882
+2023-05-25 14:59:07,090 --- [output] - DevTools listening on ws://127.0.0.1:51976/devtools/browser/bd1f70c4-a1e6-45bf-ae55-67510cc96ff5
+2023-05-25 14:59:07,472 --- Connected to ws ws://localhost:51976/devtools/browser/bd1f70c4-a1e6-45bf-ae55-67510cc96ff5
+2023-05-25 14:59:07,472 --- Connected to ws server ws://localhost:51976/devtools/browser/bd1f70c4-a1e6-45bf-ae55-67510cc96ff5
+2023-05-25 14:59:07,476 --- Connected to ws ws://localhost:51976/devtools/page/C861A66B441C0F929ADECBEC9ECE3B7A
+2023-05-25 14:59:07,476 --- Connected to ws server ws://localhost:51976/devtools/page/C861A66B441C0F929ADECBEC9ECE3B7A
+2023-05-25 14:59:07,701 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-25 14:59:45,129 --- [output] - DevTools listening on ws://127.0.0.1:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 14:59:45,469 --- Connected to ws ws://localhost:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 14:59:45,469 --- Connected to ws server ws://localhost:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 14:59:45,475 --- Connected to ws ws://localhost:52003/devtools/page/5C68DFAEB566B727B4893F37E3B7BCB9
+2023-05-25 14:59:45,475 --- Connected to ws server ws://localhost:52003/devtools/page/5C68DFAEB566B727B4893F37E3B7BCB9
+2023-05-25 14:59:45,667 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-05-25 14:59:54,241 --- Connected to ws ws://localhost:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 14:59:54,241 --- Connected to ws server ws://localhost:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 14:59:54,246 --- Connected to ws ws://localhost:52003/devtools/page/BB3256EE6572E3FC9688B87D00F4C91D
+2023-05-25 14:59:54,246 --- Connected to ws server ws://localhost:52003/devtools/page/BB3256EE6572E3FC9688B87D00F4C91D
+2023-05-25 15:00:03,346 --- [output] - DevTools listening on ws://127.0.0.1:52020/devtools/browser/2fa326ff-9044-462b-afb0-d1c043143dec
+2023-05-25 15:00:03,369 --- Connected to ws ws://localhost:52020/devtools/browser/2fa326ff-9044-462b-afb0-d1c043143dec
+2023-05-25 15:00:03,369 --- Connected to ws server ws://localhost:52020/devtools/browser/2fa326ff-9044-462b-afb0-d1c043143dec
+2023-05-25 15:00:03,374 --- Connected to ws ws://localhost:52020/devtools/page/C59FF04E0866BFEC2A27D6C0A6626AF5
+2023-05-25 15:00:03,374 --- Connected to ws server ws://localhost:52020/devtools/page/C59FF04E0866BFEC2A27D6C0A6626AF5
+2023-05-25 15:00:12,705 --- Connected to ws ws://localhost:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 15:00:12,706 --- Connected to ws server ws://localhost:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 15:00:12,710 --- Connected to ws ws://localhost:52003/devtools/page/F84388D6277064B5320D831CC4FB4846
+2023-05-25 15:00:12,710 --- Connected to ws server ws://localhost:52003/devtools/page/F84388D6277064B5320D831CC4FB4846
+2023-05-25 15:00:20,633 --- Connected to ws ws://localhost:52020/devtools/browser/2fa326ff-9044-462b-afb0-d1c043143dec
+2023-05-25 15:00:20,633 --- Connected to ws server ws://localhost:52020/devtools/browser/2fa326ff-9044-462b-afb0-d1c043143dec
+2023-05-25 15:00:20,639 --- Connected to ws ws://localhost:52020/devtools/page/2E0C0E49C92CE4BA8C984A4113661060
+2023-05-25 15:00:20,639 --- Connected to ws server ws://localhost:52020/devtools/page/2E0C0E49C92CE4BA8C984A4113661060
+2023-05-25 15:00:28,480 --- Connected to ws ws://localhost:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 15:00:28,480 --- Connected to ws server ws://localhost:52003/devtools/browser/fdc12237-c629-4cce-879f-d9ad022c680a
+2023-05-25 15:00:28,485 --- Connected to ws ws://localhost:52003/devtools/page/C6B40E8C30508E6064C49804A9353C93
+2023-05-25 15:00:28,485 --- Connected to ws server ws://localhost:52003/devtools/page/C6B40E8C30508E6064C49804A9353C93
+2023-05-25 15:00:37,372 --- Connected to ws ws://localhost:52020/devtools/browser/2fa326ff-9044-462b-afb0-d1c043143dec
+2023-05-25 15:00:37,372 --- Connected to ws server ws://localhost:52020/devtools/browser/2fa326ff-9044-462b-afb0-d1c043143dec
+2023-05-25 15:00:37,377 --- Connected to ws ws://localhost:52020/devtools/page/366961021F2E31CAD5389A1569F43864
+2023-05-25 15:00:37,377 --- Connected to ws server ws://localhost:52020/devtools/page/366961021F2E31CAD5389A1569F43864
+2023-06-12 18:07:22,178 --- [output] - DevTools listening on ws://127.0.0.1:50599/devtools/browser/e2dfd7ad-3ad4-4906-9f0a-c9cafe66a76f
+2023-06-12 18:07:22,823 --- Connected to ws ws://localhost:50599/devtools/browser/e2dfd7ad-3ad4-4906-9f0a-c9cafe66a76f
+2023-06-12 18:07:22,823 --- Connected to ws server ws://localhost:50599/devtools/browser/e2dfd7ad-3ad4-4906-9f0a-c9cafe66a76f
+2023-06-12 18:07:22,829 --- Connected to ws ws://localhost:50599/devtools/page/2621ABFCABCABC573F914A03A6B508B2
+2023-06-12 18:07:22,829 --- Connected to ws server ws://localhost:50599/devtools/page/2621ABFCABCABC573F914A03A6B508B2
+2023-06-12 18:07:23,042 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-06-12 18:16:47,595 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-06-12 18:16:47,595 --- Web socket connection closed CLOSED_ABNORMALLY Closed abnormally.
+2023-06-12 18:16:47,596 --- Closing ws server ws://localhost:50599/devtools/page/2621ABFCABCABC573F914A03A6B508B2
+2023-06-12 18:16:47,596 --- Closing ws server ws://localhost:50599/devtools/browser/e2dfd7ad-3ad4-4906-9f0a-c9cafe66a76f
+2023-06-12 18:17:06,261 --- [output] - DevTools listening on ws://127.0.0.1:51113/devtools/browser/534e8fef-1ee4-4feb-bf6c-689f4331631c
+2023-06-12 18:17:06,563 --- Connected to ws ws://localhost:51113/devtools/browser/534e8fef-1ee4-4feb-bf6c-689f4331631c
+2023-06-12 18:17:06,563 --- Connected to ws server ws://localhost:51113/devtools/browser/534e8fef-1ee4-4feb-bf6c-689f4331631c
+2023-06-12 18:17:06,569 --- Connected to ws ws://localhost:51113/devtools/page/5435FDF4898E6948089C54A270E83EA3
+2023-06-12 18:17:06,569 --- Connected to ws server ws://localhost:51113/devtools/page/5435FDF4898E6948089C54A270E83EA3
+2023-06-12 18:17:06,730 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-06-17 22:55:27,948 --- [output] - DevTools listening on ws://127.0.0.1:54790/devtools/browser/0cacbe28-d158-48a1-a7a9-e4060e15b7cb
+2023-06-17 22:55:28,342 --- Connected to ws ws://localhost:54790/devtools/browser/0cacbe28-d158-48a1-a7a9-e4060e15b7cb
+2023-06-17 22:55:28,342 --- Connected to ws server ws://localhost:54790/devtools/browser/0cacbe28-d158-48a1-a7a9-e4060e15b7cb
+2023-06-17 22:55:28,347 --- Connected to ws ws://localhost:54790/devtools/page/F31C16879DF6E1E1B1F95941D552806A
+2023-06-17 22:55:28,347 --- Connected to ws server ws://localhost:54790/devtools/page/F31C16879DF6E1E1B1F95941D552806A
+2023-06-17 22:55:28,548 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-06-17 23:01:40,068 --- Connected to ws ws://localhost:54790/devtools/browser/0cacbe28-d158-48a1-a7a9-e4060e15b7cb
+2023-06-17 23:01:40,069 --- Connected to ws server ws://localhost:54790/devtools/browser/0cacbe28-d158-48a1-a7a9-e4060e15b7cb
+2023-06-17 23:01:40,074 --- Connected to ws ws://localhost:54790/devtools/page/EB478390ABA5D2907EC1D60D3092B07A
+2023-06-17 23:01:40,074 --- Connected to ws server ws://localhost:54790/devtools/page/EB478390ABA5D2907EC1D60D3092B07A
+2023-06-24 11:02:01,032 --- [output] - DevTools listening on ws://127.0.0.1:50855/devtools/browser/b29d2eaa-937e-4dcc-9a77-0b1b6c337e9b
+2023-06-24 11:02:01,377 --- Connected to ws ws://localhost:50855/devtools/browser/b29d2eaa-937e-4dcc-9a77-0b1b6c337e9b
+2023-06-24 11:02:01,377 --- Connected to ws server ws://localhost:50855/devtools/browser/b29d2eaa-937e-4dcc-9a77-0b1b6c337e9b
+2023-06-24 11:02:01,383 --- Connected to ws ws://localhost:50855/devtools/page/A360BB42C8FC1046D989CC558D6CE8A0
+2023-06-24 11:02:01,383 --- Connected to ws server ws://localhost:50855/devtools/page/A360BB42C8FC1046D989CC558D6CE8A0
+2023-06-24 11:02:01,577 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-06-24 11:06:22,331 --- [output] - DevTools listening on ws://127.0.0.1:50900/devtools/browser/4bc1a60f-23e1-4153-bca4-c50697eb36ed
+2023-06-24 11:06:22,356 --- Connected to ws ws://localhost:50900/devtools/browser/4bc1a60f-23e1-4153-bca4-c50697eb36ed
+2023-06-24 11:06:22,356 --- Connected to ws server ws://localhost:50900/devtools/browser/4bc1a60f-23e1-4153-bca4-c50697eb36ed
+2023-06-24 11:06:22,364 --- Connected to ws ws://localhost:50900/devtools/page/1550D5B4444BCB8AECF9CDDCFD642471
+2023-06-24 11:06:22,364 --- Connected to ws server ws://localhost:50900/devtools/page/1550D5B4444BCB8AECF9CDDCFD642471
+2023-06-24 11:06:42,380 --- Connected to ws ws://localhost:50855/devtools/browser/b29d2eaa-937e-4dcc-9a77-0b1b6c337e9b
+2023-06-24 11:06:42,381 --- Connected to ws server ws://localhost:50855/devtools/browser/b29d2eaa-937e-4dcc-9a77-0b1b6c337e9b
+2023-06-24 11:06:42,386 --- Connected to ws ws://localhost:50855/devtools/page/2337353550F406912FE8164760D6EAD1
+2023-06-24 11:06:42,386 --- Connected to ws server ws://localhost:50855/devtools/page/2337353550F406912FE8164760D6EAD1
+2023-06-25 21:22:28,411 --- [output] - DevTools listening on ws://127.0.0.1:53062/devtools/browser/db729b4d-0e39-460b-aecd-7fa2e9e89ff0
+2023-06-25 21:22:28,758 --- Connected to ws ws://localhost:53062/devtools/browser/db729b4d-0e39-460b-aecd-7fa2e9e89ff0
+2023-06-25 21:22:28,758 --- Connected to ws server ws://localhost:53062/devtools/browser/db729b4d-0e39-460b-aecd-7fa2e9e89ff0
+2023-06-25 21:22:28,763 --- Connected to ws ws://localhost:53062/devtools/page/A7C89628F4FE7E7E35A2EED319802721
+2023-06-25 21:22:28,763 --- Connected to ws server ws://localhost:53062/devtools/page/A7C89628F4FE7E7E35A2EED319802721
+2023-06-25 21:22:29,013 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-06-25 21:22:38,804 --- Connected to ws ws://localhost:53062/devtools/browser/db729b4d-0e39-460b-aecd-7fa2e9e89ff0
+2023-06-25 21:22:38,805 --- Connected to ws server ws://localhost:53062/devtools/browser/db729b4d-0e39-460b-aecd-7fa2e9e89ff0
+2023-06-25 21:22:38,809 --- Connected to ws ws://localhost:53062/devtools/page/3F639323635B5CDF00D6D0A61EDFABFF
+2023-06-25 21:22:38,809 --- Connected to ws server ws://localhost:53062/devtools/page/3F639323635B5CDF00D6D0A61EDFABFF
+2023-06-25 21:26:08,679 --- [output] - DevTools listening on ws://127.0.0.1:53274/devtools/browser/1ddde486-0963-4543-8acd-bc5e263c0d2f
+2023-06-25 21:26:10,467 --- Connected to ws ws://localhost:53274/devtools/browser/1ddde486-0963-4543-8acd-bc5e263c0d2f
+2023-06-25 21:26:10,468 --- Connected to ws server ws://localhost:53274/devtools/browser/1ddde486-0963-4543-8acd-bc5e263c0d2f
+2023-06-25 21:26:10,489 --- Connected to ws ws://localhost:53274/devtools/page/F4B19CDB14179D5C36F6E7F0AD7DE00A
+2023-06-25 21:26:10,489 --- Connected to ws server ws://localhost:53274/devtools/page/F4B19CDB14179D5C36F6E7F0AD7DE00A
+2023-06-25 21:26:11,922 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js
+2023-06-25 21:49:31,186 --- [output] - DevTools listening on ws://127.0.0.1:55269/devtools/browser/25bbc1af-3d80-4a38-b725-48d4ac5b5f59
+2023-06-25 21:49:31,507 --- Connected to ws ws://localhost:55269/devtools/browser/25bbc1af-3d80-4a38-b725-48d4ac5b5f59
+2023-06-25 21:49:31,507 --- Connected to ws server ws://localhost:55269/devtools/browser/25bbc1af-3d80-4a38-b725-48d4ac5b5f59
+2023-06-25 21:49:31,512 --- Connected to ws ws://localhost:55269/devtools/page/6291D32FA8C12DDC8C1DDE0F172236B5
+2023-06-25 21:49:31,513 --- Connected to ws server ws://localhost:55269/devtools/page/6291D32FA8C12DDC8C1DDE0F172236B5
+2023-06-25 21:49:31,721 --- Generated js: file://C:\Users\ASUS\AppData\Local\Temp\pulsar-ASUS\report\browser\js\preload.gen.js

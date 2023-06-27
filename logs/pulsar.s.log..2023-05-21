@@ -1,0 +1,17 @@
+19:13:02.673 [080-exec-6] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+19:13:02.673 [080-exec-6] INFO  a.p.p.c.config.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+19:13:02.673 [080-exec-6] INFO  a.p.p.c.config.AbstractConfiguration - Resource not find: pulsar-task.xml
+19:13:02.721 [080-exec-6] INFO  a.p.p.c.config.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+19:13:03.113 [080-exec-6] INFO  a.p.p.crawl.protocol.ProtocolFactory - Supported protocols: crowd, browser
+19:13:03.153 [080-exec-6] INFO  a.p.p.c.parse.html.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+19:13:03.257 [080-exec-6] INFO  a.p.pulsar.crawl.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+19:13:03.305 [080-exec-6] INFO  a.p.p.crawl.impl.StreamingCrawlLoop - Crawl loop is created | @1429094730
+19:13:03.313 [080-exec-6] INFO  a.p.pulsar.context.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+19:13:04.515 [080-exec-6] INFO  a.p.pulsar.persist.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+19:13:05.148 [080-exec-6] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+19:13:05.276 [080-exec-6] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 368h23m52s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+19:13:05.276 [080-exec-6] INFO  a.p.p.c.component.LoadComponent.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 368h23m52s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+19:13:05.284 [080-exec-6] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+19:13:05.284 [080-exec-6] INFO  a.p.p.c.component.LoadComponent.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+19:47:29.954 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+19:47:29.961 [Thread-2] INFO  a.p.p.session.AbstractPulsarSession - Session is closed | #1000001

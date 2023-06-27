@@ -1,0 +1,102 @@
+16:15:36.864 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 6104 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+16:15:36.873 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+16:15:39.264 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+16:15:39.265 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+16:15:39.265 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+16:15:39.300 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+16:15:39.319 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:15:39.320 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+16:15:39.320 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:15:39.599 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:15:41.175 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:15:41.214 [main] INFO  com.spring.Application - Started Application in 5.295 seconds (JVM running for 7.571)
+16:15:59.540 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:15:59.556 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+16:15:59.557 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+16:15:59.654 [080-exec-1] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=zjs, password=123456, gender=null, email=null, phone=null, tag=null, postnumbers=0)
+16:15:59.686 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:16:00.074 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:16:00.171 [080-exec-1] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：509ms
+16:16:22.723 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/competition/GetLiKou
+16:16:22.740 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+16:16:22.806 [080-exec-3] INFO  com.spring.aop.TimeAspect - List com.spring.service.impl.CompetitionServicelmpl.searchLiKouTournamentCompetition()方法执行耗时：65ms
+16:16:53.202 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:16:53.210 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:26:39.364 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 6876 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+23:26:39.367 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+23:26:40.721 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+23:26:40.722 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23:26:40.722 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:26:40.729 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+23:26:40.741 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:26:40.741 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+23:26:40.741 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+23:26:40.938 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:26:42.105 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:26:42.133 [main] INFO  com.spring.Application - Started Application in 3.215 seconds (JVM running for 4.578)
+23:36:05.229 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 8816 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+23:36:05.232 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+23:36:06.512 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+23:36:06.513 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23:36:06.513 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:36:06.520 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+23:36:06.529 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:36:06.530 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+23:36:06.531 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+23:36:06.693 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:36:07.994 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:36:08.035 [main] INFO  com.spring.Application - Started Application in 3.304 seconds (JVM running for 4.759)
+23:36:31.558 [080-exec-3] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:36:31.574 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+23:36:31.575 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+23:36:31.660 [080-exec-3] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=zjs, password=123456, gender=null, email=null, phone=null, tag=null, postnumbers=0)
+23:36:31.695 [080-exec-3] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:36:32.075 [080-exec-3] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:36:32.175 [080-exec-3] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：507ms
+23:37:27.195 [080-exec-2] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @6ca18a14
+23:37:27.341 [080-exec-2] INFO  com.spring.aop.TimeAspect - Page com.spring.service.impl.QuestionBankServiceImpl.searchLuoGuQuestions(String,Integer,Integer)方法执行耗时：188ms
+23:37:27.341 [080-exec-2] INFO  c.s.c.QuestionBankController - 尝试获取题目 获取题目成功 pages:0, rows:40
+23:37:39.787 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:37:39.800 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:38:29.844 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 12732 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+23:38:29.847 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+23:38:31.205 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+23:38:31.205 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23:38:31.206 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:38:31.211 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+23:38:31.220 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:38:31.221 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+23:38:31.221 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+23:38:31.499 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:38:32.444 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:38:32.468 [main] INFO  com.spring.Application - Started Application in 2.994 seconds (JVM running for 4.176)
+23:38:35.936 [080-exec-5] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:38:36.011 [080-exec-5] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @6f8e8894
+23:38:36.026 [080-exec-5] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:38:36.293 [080-exec-5] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:38:37.739 [080-exec-5] INFO  com.spring.aop.TimeAspect - Page com.spring.service.impl.QuestionBankServiceImpl.searchCFQuestions(String,Integer,Integer)方法执行耗时：1776ms
+23:38:37.740 [080-exec-5] INFO  c.s.c.QuestionBankController - 尝试获取题目：0 pages: 0 rows: 40
+23:38:50.610 [080-exec-3] INFO  com.spring.aop.TimeAspect - Page com.spring.service.impl.QuestionBankServiceImpl.searchCFQuestions(String,Integer,Integer)方法执行耗时：1669ms
+23:38:50.611 [080-exec-3] INFO  c.s.c.QuestionBankController - 尝试获取题目：0 pages: 0 rows: 40
+23:41:57.614 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:41:57.619 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+23:42:03.560 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-LT1H04N8 with PID 11464 (D:\workplace\Spring\target\classes started by ASUS in D:\workplace\Spring)
+23:42:03.563 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+23:42:04.826 [main] INFO  o.a.c.c.AprLifecycleListener - Loaded Apache Tomcat Native library [2.0.3] using APR version [1.7.2].
+23:42:04.827 [main] INFO  o.a.c.c.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+23:42:04.827 [main] INFO  o.a.c.c.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23:42:04.833 [main] INFO  o.a.c.c.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.8 7 Feb 2023]
+23:42:04.843 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+23:42:04.844 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+23:42:04.844 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+23:42:05.016 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+23:42:05.977 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+23:42:06.008 [main] INFO  com.spring.Application - Started Application in 2.852 seconds (JVM running for 4.039)
+23:42:46.620 [080-exec-4] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:42:46.691 [080-exec-4] WARN  c.b.m.c.t.s.ReflectLambdaMeta - Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @dc9876b
+23:42:46.704 [080-exec-4] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+23:42:46.973 [080-exec-4] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+23:42:47.129 [080-exec-4] INFO  com.spring.aop.TimeAspect - Page com.spring.service.impl.QuestionBankServiceImpl.searchLuoGuQuestions(String,Integer,Integer)方法执行耗时：481ms
+23:42:47.130 [080-exec-4] INFO  c.s.c.QuestionBankController - 尝试获取题目 获取题目成功 pages:0, rows:40
+23:52:09.219 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+23:52:09.227 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

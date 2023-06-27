@@ -1,0 +1,427 @@
+10:15:48.229 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 21848 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+10:15:48.238 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+10:15:50.496 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:15:50.497 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+10:15:50.497 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+10:15:50.792 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10:15:51.551 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+10:15:51.551 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+10:15:52.677 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:15:52.735 [main] INFO  com.spring.Application - Started Application in 5.261 seconds (JVM running for 7.038)
+10:16:16.359 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:16:16.389 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+10:16:16.391 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+10:16:16.518 [080-exec-1] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+10:16:16.590 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10:16:18.058 [080-exec-1] ERROR c.z.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:132)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:89)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.getByUsernameAndPassword(Unknown Source)
+	at com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(UserServiceImpl.java:36)
+	at com.spring.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$8b55b5a9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.spring.aop.TimeAspect.recordTime(TimeAspect.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.spring.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$250713d0.loginByUsernameAndPassword(<generated>)
+	at com.spring.controller.UserController.loginByUsernameAndPassword(UserController.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+10:17:40.624 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+10:17:40.624 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+10:17:40.626 [080-exec-5] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+10:17:40.626 [080-exec-5] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10:17:41.664 [080-exec-5] ERROR c.z.hikari.pool.HikariPool - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:132)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at jdk.proxy2/jdk.proxy2.$Proxy101.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:89)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.getByUsernameAndPassword(Unknown Source)
+	at com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(UserServiceImpl.java:36)
+	at com.spring.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$8b55b5a9.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.spring.aop.TimeAspect.recordTime(TimeAspect.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:624)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.spring.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$250713d0.loginByUsernameAndPassword(<generated>)
+	at com.spring.controller.UserController.loginByUsernameAndPassword(UserController.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+10:17:54.263 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 14768 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+10:17:54.267 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+10:17:56.542 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:17:56.543 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+10:17:56.543 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+10:17:56.829 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10:17:57.459 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+10:17:57.459 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+10:17:58.421 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:17:58.481 [main] INFO  com.spring.Application - Started Application in 4.945 seconds (JVM running for 6.606)
+10:17:59.581 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:17:59.604 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+10:17:59.606 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+10:17:59.733 [080-exec-1] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+10:17:59.781 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10:18:00.217 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10:18:00.282 [080-exec-1] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：541ms
+10:18:50.947 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/lg
+10:18:50.967 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:18:50.979 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/error
+10:18:50.983 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:20:39.943 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+10:20:39.945 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:20:39.946 [080-exec-7] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+10:20:40.013 [080-exec-7] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+10:20:40.020 [080-exec-7] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/D:/maven/maven_repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+10:20:40.022 [080-exec-7] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+10:20:40.078 [080-exec-7] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+10:20:40.672 [080-exec-7] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+10:20:40.720 [080-exec-7] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+10:20:40.863 [080-exec-7] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+10:20:40.947 [080-exec-7] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @1475724361
+10:20:40.953 [080-exec-7] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+10:20:42.732 [080-exec-7] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+10:20:43.576 [080-exec-7] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+10:20:43.725 [080-exec-7] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 119h31m30s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+10:20:43.729 [080-exec-7] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:20:43.919 [080-exec-7] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：3973ms
+10:20:58.099 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+10:20:58.101 [080-exec-8] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:20:58.102 [080-exec-8] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+10:20:58.173 [080-exec-8] INFO  a.p.p.c.c.L.Task -   6. 💔 💿 U  got 1462 0 <- 0 in , last fetched 116h5m20s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+10:21:03.489 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+10:21:03.491 [080-exec-9] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:21:03.491 [080-exec-9] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+10:21:17.183 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+10:21:17.184 [80-exec-10] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:21:17.184 [80-exec-10] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+10:21:21.880 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+10:21:21.881 [080-exec-2] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:21:21.882 [080-exec-2] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+10:22:13.914 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/5 | StaticPulsarContext
+10:22:13.922 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000003
+10:22:13.923 [l-worker-1] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000002
+10:22:13.923 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000005
+10:22:13.923 [l-worker-1] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000001
+10:22:13.923 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000004
+10:22:13.955 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:22:13.967 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+10:27:31.905 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 5100 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+10:27:31.909 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+10:27:34.077 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+10:27:34.078 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+10:27:34.078 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+10:27:34.478 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+10:27:35.217 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+10:27:35.217 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+10:27:36.354 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+10:27:36.405 [main] INFO  com.spring.Application - Started Application in 5.175 seconds (JVM running for 7.052)
+10:28:42.058 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+10:28:42.099 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+10:28:42.637 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:28:42.643 [080-exec-1] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+10:28:42.681 [080-exec-1] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+10:28:42.682 [080-exec-1] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+10:28:42.683 [080-exec-1] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+10:28:42.711 [080-exec-1] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+10:28:43.064 [080-exec-1] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+10:28:43.106 [080-exec-1] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+10:28:43.180 [080-exec-1] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+10:28:43.221 [080-exec-1] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @990477053
+10:28:43.224 [080-exec-1] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+10:28:44.592 [080-exec-1] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+10:28:45.205 [080-exec-1] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+10:28:45.322 [080-exec-1] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 116h13m7s ago, fc:1/1 Exception(1462)  | https://www.codeforces.com/contests 
+10:28:45.324 [080-exec-1] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+10:28:54.279 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+10:28:54.279 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+10:28:54.333 [080-exec-3] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+10:28:54.376 [080-exec-3] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+10:28:54.704 [080-exec-3] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+10:28:54.746 [080-exec-3] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：410ms
+10:29:09.873 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/cf
+10:29:09.874 [080-exec-4] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:29:09.874 [080-exec-4] INFO  c.s.c.CrawlController - 爬取cf近期比赛信息
+10:29:16.957 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+10:29:16.958 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:29:16.958 [080-exec-5] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+10:29:16.972 [080-exec-5] INFO  a.p.p.c.c.L.Task -   8. 💔 💿 U  got 1462 0 <- 0 in , last fetched 119h40m4s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+10:29:16.982 [080-exec-5] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：24ms
+10:29:23.638 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+10:29:23.639 [080-exec-6] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+10:29:26.618 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+10:29:26.619 [080-exec-7] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+10:29:26.620 [080-exec-7] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+10:29:26.631 [080-exec-7] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：11ms
+10:51:19.382 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/4 | StaticPulsarContext
+10:51:19.382 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000003
+10:51:19.382 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000004
+10:51:19.382 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000001
+10:51:19.382 [l-worker-1] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000002
+10:51:19.429 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+10:51:19.445 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+16:16:50.567 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 26792 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+16:16:50.570 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+16:16:52.227 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:16:52.228 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+16:16:52.228 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:16:52.448 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:16:52.879 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+16:16:52.879 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+16:16:53.635 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:16:53.688 [main] INFO  com.spring.Application - Started Application in 3.618 seconds (JVM running for 5.327)
+16:31:08.591 [main] INFO  com.spring.Application - Starting Application using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 32040 (C:\Users\86191\Desktop\Spring\target\classes started by 86191 in C:\Users\86191\Desktop\Spring)
+16:31:08.596 [main] INFO  com.spring.Application - No active profile set, falling back to 1 default profile: "default"
+16:31:10.261 [main] INFO  o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:31:10.262 [main] INFO  o.a.c.core.StandardService - Starting service [Tomcat]
+16:31:10.262 [main] INFO  o.a.c.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+16:31:10.500 [main] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+16:31:10.953 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+16:31:10.954 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+16:31:11.577 [main] INFO  o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:31:11.614 [main] INFO  com.spring.Application - Started Application in 3.496 seconds (JVM running for 5.041)
+16:33:10.944 [080-exec-1] INFO  o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+16:33:10.959 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/login/username
+16:33:10.961 [080-exec-1] INFO  c.s.i.LoginCheckInterceptor - 登录操作，放行。。。
+16:33:11.051 [080-exec-1] INFO  c.s.c.UserController - 用户名登录：User(id=null, username=lxy, password=123456, gender=null, email=null, phone=null, tag=null)
+16:33:11.104 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Starting...
+16:33:11.431 [080-exec-1] INFO  c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+16:33:11.472 [080-exec-1] INFO  com.spring.aop.TimeAspect - User com.spring.service.impl.UserServiceImpl.loginByUsernameAndPassword(User)方法执行耗时：413ms
+16:33:49.824 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/crawl/lg
+16:33:49.838 [080-exec-3] INFO  c.s.i.LoginCheckInterceptor - 令牌合法，放行
+16:33:49.839 [080-exec-3] INFO  c.s.c.CrawlController - 爬取洛谷近期比赛信息
+16:33:49.869 [080-exec-3] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+16:33:49.870 [080-exec-3] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+16:33:49.871 [080-exec-3] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+16:33:49.901 [080-exec-3] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+16:33:50.280 [080-exec-3] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+16:33:50.305 [080-exec-3] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+16:33:50.427 [080-exec-3] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+16:33:50.468 [080-exec-3] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @991816893
+16:33:50.473 [080-exec-3] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+16:33:51.709 [080-exec-3] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+16:33:52.300 [080-exec-3] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+16:33:52.406 [080-exec-3] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 125h44m39s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:33:52.407 [080-exec-3] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+16:33:52.548 [080-exec-3] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：2709ms
+16:35:37.110 [main] INFO  c.spring.ApplicationTests - Starting ApplicationTests using Java 19.0.2 on LAPTOP-HQLKM6N6 with PID 24192 (started by 86191 in C:\Users\86191\Desktop\Spring)
+16:35:37.122 [main] INFO  c.spring.ApplicationTests - No active profile set, falling back to 1 default profile: "default"
+16:35:40.047 [main] WARN  c.b.m.c.m.TableInfoHelper - Can not find table primary key in Class: "com.spring.pojo.LuoGuProblems".
+16:35:40.048 [main] WARN  c.b.m.c.i.DefaultSqlInjector - class com.spring.pojo.LuoGuProblems ,Not found @TableId annotation, Cannot use Mybatis-Plus 'xxById' Method.
+16:35:42.111 [main] INFO  c.spring.ApplicationTests - Started ApplicationTests in 5.515 seconds (JVM running for 7.563)
+16:35:42.863 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-default.xml
+16:35:42.864 [main] INFO  a.p.p.c.c.AbstractConfiguration - Find legacy resource: jar:file:/C:/Users/86191/.m2/repository/ai/platon/pulsar/pulsar-skeleton/1.10.11/pulsar-skeleton-1.10.11.jar!/config/legacy/pulsar-site.xml
+16:35:42.866 [main] INFO  a.p.p.c.c.AbstractConfiguration - Resource not find: pulsar-task.xml
+16:35:42.931 [main] INFO  a.p.p.c.c.AbstractConfiguration - profile: <> | [pulsar-default.xml, pulsar-site.xml]
+16:35:43.583 [main] INFO  a.p.p.c.p.ProtocolFactory - Supported protocols: crowd, browser
+16:35:43.666 [main] INFO  a.p.p.c.p.h.PrimerHtmlParser - className: PrimerHtmlParser defaultCharEncoding: utf-8
+16:35:43.780 [main] INFO  a.p.p.c.parse.PageParser - maxParseTime: PT1M maxParsedLinks: 200 groupMode: BY_HOST ignoreExternalLinks: false maxUrlLength: 1024
+16:35:43.849 [main] INFO  a.p.p.c.i.StreamingCrawlLoop - Crawl loop is created | @1059041593
+16:35:43.855 [main] INFO  a.p.p.c.PulsarContexts - Active context | ai.platon.pulsar.context.support.StaticPulsarContext#1
+16:35:45.512 [main] INFO  a.p.p.p.gora.GoraStorage - Backend data store: FileBackendPageStore realSchema: FileBackendPageStore
+16:35:46.135 [main] INFO  a.p.p.p.AutoDetectStorageProvider - Storage is created: class ai.platon.pulsar.persist.gora.FileBackendPageStore realSchema: FileBackendPageStore
+16:35:46.307 [main] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 125h46m33s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+16:35:46.307 [main] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
+16:35:46.647 [main] INFO  com.spring.aop.TimeAspect - Result com.spring.service.impl.CrawlServiceImpl.LGcrawl()方法执行耗时：3854ms
+16:35:46.685 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+16:35:46.688 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000001
+16:37:31.714 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求的url:/
+16:37:31.714 [080-exec-5] INFO  c.s.i.LoginCheckInterceptor - 请求头token为空，返回未登录的信息
+16:42:11.360 [ousekeeper] WARN  c.z.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s710ms225µs900ns).
+16:51:20.387 [ousekeeper] WARN  c.z.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m38s944ms478µs200ns).
+16:51:26.542 [Thread-2] INFO  a.p.p.c.s.AbstractPulsarContext - Closing context #1/1 | StaticPulsarContext
+16:51:26.546 [Thread-2] INFO  a.p.p.s.AbstractPulsarSession - Session is closed | #1000001
+16:51:26.572 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16:51:26.586 [utdownHook] INFO  c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.

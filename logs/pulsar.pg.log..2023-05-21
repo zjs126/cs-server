@@ -1,0 +1,2 @@
+19:13:05.276 [080-exec-6] INFO  a.p.p.c.c.L.Task -   3. 💔 💿 U  got 1462 0 <- 0 in , last fetched 368h23m52s ago, fc:1/1 Exception(1462)  | https://www.luogu.com.cn 
+19:13:05.284 [080-exec-6] INFO  a.p.p.c.c.L.Task - Log explanation: https://github.com/platonai/pulsarr/blob/master/docs/log-format.adoc
